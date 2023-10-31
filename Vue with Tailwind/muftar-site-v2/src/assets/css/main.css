@@ -1,0 +1,83 @@
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,900;1,200;1,300;1,800;1,900&family=Roboto:wght@100;400&display=swap');
+
+/* Define custom font faces */
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url(../Avenir\ LT\ Std\ 35\ Light.otf) format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url(../Avenir\ LT\ Std\ 65\ Medium.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url(../Avenir\ LT\ Std\ 85\ Heavy.otf) format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url(../Avenir\ LT\ Std\ 95\ Black.otf) format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url(../AvenirLTStd-Book.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url(../AvenirLTStd-Roman.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Apply the font styles to all elements */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Avenir LT Std', 'Raleway', 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.text-2xl{
+  font-weight: 900;
+  font-size: 3rem;
+}
+.text-3xl{
+  font-weight: 900;
+}
+.text-5xl{
+  font-weight: 900;
+}
+.text-4xl{
+  font-weight: 900;
+}
+.Join-text{
+  font-size: 2rem;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #DEE1F8;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #A2A5D8;
+  border-radius: 5px;
+}
+
+

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="icon" href="./assets/images/favIcon.png" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="./css/dashboard.css"> -->
+    <link rel="stylesheet" href="./css/stock.css">
+    <link rel="stylesheet" href="./css/stockdatepicker.css">
+    <title>::Key To Solution::</title>
+</head>
+
+<body>
+     <!-- loader  -->
+ <div class="loader_bg">
+    <div class="loader"><img src="./assets/images/loading.gif" alt="#" /></div>
+ </div>
+ <!-- end loader -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="" class="logo">
+                        <span class="title">
+                            <img src="./assets/images/logo_s.png" alt="">
+                        </span>
+                    </a>
+                    <span class="border_line"></span>
+                </li>
+                <li class="left">
+                    <a href="Dashboard.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/overview.png" alt="">
+                        </span>
+                        <span class="title">Overview</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Dealers.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/dealers.png" alt="">
+                        </span>
+                        <span class="title">Dealers</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Customer.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/customers.png" alt="">
+                        </span>
+                        <span class="title">Customers</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Factories.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/factories.png" alt="">
+                        </span>
+                        <span class="title">Factories</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Sale.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/sales.png" alt="">
+                        </span>
+                        <span class="title">Sales</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Purchase.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/purchase.png" alt="">
+                        </span>
+                        <span class="title">Purchase</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Vehicle.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/vehicle.png" alt="">
+                        </span>
+                        <span class="title">Vehicles</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="officeExpenses.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/office exp.png" alt="">
+                        </span>
+                        <span class="title">Office Exp.</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Banks.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/bank.png" alt="">
+                        </span>
+                        <span class="title">Banks</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+           
+                <li class="left active">
+                    <a href="Stock.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/stock.png" alt="">
+                        </span>
+                        <span class="title">Stocks</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Employees.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/employees.png" alt="">
+                        </span>
+                        <span class="title">Employees</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+
+                <li class="left">
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/view report.png" alt="">
+                        </span>
+                        <span class="title">View All Reports</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/setting.png" alt="">
+                        </span>
+                        <span class="title">Settings</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main_box" id="overview">
+        <div class="top_nav">
+            <nav>
+                <h1>Stocks</h1>
+                <div class="bell">
+                    <img src="./assets/images/bell.png" alt="">
+                </div>
+                <div class="profile-details">
+                    <img src="./assets/images/profile.jpg" alt="" onclick="menuToggle();">
+                    <i class='bx bx-chevron-down' onclick="menuToggle();"></i>
+                    <div class="menu">
+                        <ul>
+                            <li>
+                                <i class="fas fa-user"></i>
+                                <a href="#">My Profile</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-gear"></i>
+                                <a href="#">Settings</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-message"></i>
+                                <a href="#">Feedback</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-sign-out"></i>
+                                <a href="#">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="stocks-add">
+            <div class="pending-order">
+                <a href="#stockpopup">
+                    <div class="add_btn"><i class="fas fa-user-plus"></i>
+                        Adjust
+                    </div>
+                </a>
+            </div>
+            <!-- this is for Add dealers form -->
+            <div id="stockpopup" class="overlay">
+                <div class="stock_form">
+                    <h2>Stocks Form</h2>
+                    <a class="close" href="#"><i class="fas fa-xmark"></i></a>
+                    <div class="stock-content">
+                        <form action="">
+                            <div class="current_date">
+                                <label class="date">Date</label>
+                                <input type="date" id="date-today">
+                            </div>
+                            <div class="item-name">
+                                <label>Item Name</label>
+                                <input type="text" placeholder="Block">
+                            </div>
+                            <div class="begining-qty">
+                                <label>Begining Quantity</label>
+                                <input type="text" placeholder="5000">
+                            </div>
+                            <div class="inout-qty">
+                                <div class="qty-in">
+                                    <label>Quantity In</label>
+                                    <input type="text" placeholder="500">
+                                </div>
+                                <div class="qty-out">
+                                    <label>Quantity Out</label>
+                                    <input type="text" placeholder="400">
+                                </div>
+                            </div>
+                            <div class="closing-qty">
+                                <label>Closing Quantity</label>
+                                <input type="text" placeholder="700pc">
+                            </div>
+                            <div class="btn">
+                                <a href="#" class="btn1">Cancel</a>
+                                <a href="#" class="btn2">Save</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="headings">
+                <div class="available-stock">
+                    <h1>Available Stock</h1>
+                </div>
+                <div class="in-out">
+                    <h1>Today's In & Out</h1>
+                </div>
+            </div>
+            <div class="next-box">
+                <div class="pie-chart">
+                    <div class="box1">
+                        <h2>Stock In</h2>
+                        <h3><sup>pc</sup>2200</h3>
+                    </div>
+                    <div class="box2">
+                        <h2>Stock Out</h2>
+                        <h3><sup>pc</sup>2200</h3>
+                    </div>
+                    <div class="box3">
+                        <p>Available Stocks</p>
+                        <h1><sup>pc</sup>4500</h1>
+                    </div>
+                </div>
+                <div class="nextbox_2">
+                    <script type="text/javascript" src="https://www.google.com/jsapi">
+                    </script>
+                    <main>
+                        <h5>Reports</h5>
+                        <div id="bar-chart"></div>
+                    </main>
+                </div>
+            </div>
+            <div class="box-table">
+                <div class="pending-order">
+                    <h1>Stocks Details</h1>
+                    <div class="delete">
+                        <i><img src="./assets/images/delete.png" alt=""></i>
+                    </div>
+                    <div class="edit">
+                        <i><img src="./assets/images/edit.png" alt=""></i>
+                    </div>
+                    <div class="days-details">
+                        <div class="calender">
+                            <div class="row">
+                                <label for="daterange"></label>
+                                <img src="./assets/images/calendar.png" alt="">
+                                <input type="text" name="daterange" id="daterange" class="daterange">
+                                <div class="arrowdown">
+                                    <label for="daterange">
+                                        <img src="./assets/images/arrowdow.png">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-table">
+                    <p>Document tracking in formation</p>
+                    <section class="header">
+
+                    </section>
+                    <section class="field">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th><input type="checkbox" name="" id="selectAll"></th>
+                                    <th>Date</th>
+                                    <th>Item Name</th>
+                                    <th>Begning Quantity</th>
+                                    <th>Quantity In</th>
+                                    <th>Quantity Out</th>
+                                    <th>Closing Quantity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>09/01/2023</td>
+                                    <td>Block</td>
+                                    <td>2500</td>
+                                    <td>500</td>
+                                    <td>400</td>
+                                    <td>2600</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>09/01/2023</td>
+                                    <td>Block</td>
+                                    <td>2500</td>
+                                    <td>500</td>
+                                    <td>400</td>
+                                    <td>2600</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>09/01/2023</td>
+                                    <td>Block</td>
+                                    <td>2500</td>
+                                    <td>500</td>
+                                    <td>400</td>
+                                    <td>2600</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>09/01/2023</td>
+                                    <td>Block</td>
+                                    <td>2500</td>
+                                    <td>500</td>
+                                    <td>400</td>
+                                    <td>2600</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>09/01/2023</td>
+                                    <td>Block</td>
+                                    <td>2500</td>
+                                    <td>500</td>
+                                    <td>400</td>
+                                    <td>2600</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>09/01/2023</td>
+                                    <td>Block</td>
+                                    <td>2500</td>
+                                    <td>500</td>
+                                    <td>400</td>
+                                    <td>2600</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>09/01/2023</td>
+                                    <td>Block</td>
+                                    <td>2500</td>
+                                    <td>500</td>
+                                    <td>400</td>
+                                    <td>2600</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="bottom-field">
+                            <ul class="pagination">
+                                <li class="prev">
+                                    <a href="##" id="prev">
+                                        <i class="fa-sharp fa-solid fa-arrow-left"></i>
+                                    </a>
+                                </li>
+                                <!-- page number here -->
+                                <li class="next">
+                                    <a href="##" id="next">
+                                        <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="items-controller">
+                            <h5>Show</h5>
+                            <select name="" id="itemperpage">
+                                <option value="03">03</option>
+                                <option value="06">06</option>
+                                <option value="07" selected>07</option>
+                            </select>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- <script src="./js/script.js"></script> -->
+        <script src="./js/datepacker.js"></script>
+        <script src="./js/stock.js"></script>
+        <script>
+            let list = document.querySelectorAll('.left');
+            for (let i = 0; i < list.length; i++) {
+                list[i].onclick = function () {
+                    let j = 0;
+                    while (j < list.length) {
+                        list[j++].className = 'left';
+                    }
+                    list[i].className = 'left active'
+                }
+            }
+        </script>
+        <script>
+            function menuToggle() {
+                const menuToggle = document.querySelector('.menu');
+                menuToggle.classList.toggle('active')
+            }
+        </script>
+        <script>
+            const selected = document.querySelector(".days-selected");
+            const optionsContainer = document.querySelector(".days-container");
+
+            const optionsList = document.querySelectorAll(".option");
+
+            selected.addEventListener("click", () => {
+                optionsContainer.classList.toggle("active");
+            });
+
+            optionsList.forEach(o => {
+                o.addEventListener("click", () => {
+                    selected.innerHTML = o.querySelector("label").innerHTML;
+                    optionsContainer.classList.remove("active");
+                });
+            });
+        </script>
+        <script>
+            const periodeValue = document.querySelector('.periode-value');
+            const picker = new DateRangePicker('#daterange', {
+                start: "16 Mar",
+                end: "14 Mar",
+                onchange: (start, end) => {
+                    periodeValue.innerHTML = `
+                    Debut: ${start} 
+                    <br/>
+                    Fin: ${end}
+                `;
+                },
+                args: []
+            });
+        </script>
+</body>
+
+</html>

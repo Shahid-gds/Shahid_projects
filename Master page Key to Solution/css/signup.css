@@ -1,0 +1,317 @@
+/* This is for Login From Main_Section */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background:  #003566;
+}
+.main_section {
+    width: 100%;
+    height: 90vh;
+    margin: 35px auto;
+    background: #003566;
+    display: flex;
+}
+.box_1{
+    width: 50%;
+    height: 70vh;
+}
+.box_1 img{
+  width: 297px;
+  height: 125px;
+  margin: 50px 250px;
+}
+.box_1 p{
+  color: white;
+  margin: -50px 100px;
+  text-align: center;
+}
+.box_1 .serv_img img{
+  width: 600px;
+  height: 450px;
+  margin: 100px 130px;
+  background-position: center;
+}
+.box_2{
+  width: 50%;
+  height: 96vh;
+  background: #F5F5F5;
+  border-radius: 20px;
+  margin: -20px;
+  margin-left: -20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.box_2 img{
+    margin: 18px;
+    height: 40px;
+    cursor: pointer;
+}
+.box_2 .text h1{
+    margin: 20px 100px;
+    color: #003566;
+    font-weight: 900;
+}
+.box_2 .text p{
+ color: #373737;
+ margin: -20px 100px;
+ 
+}
+.box_2 .login_form{
+    margin: 20px 100px;
+}
+.box_2 .pass{
+    margin-top: 20px;
+}
+
+.box_2 [input], [type="text"]{
+    margin-left: 95px;
+    margin-top: 20px;
+    width: 65%;
+    padding: 10px;
+    text-align: center;
+    border-radius:10px ;
+    border: none;
+    background: #FFFFFF;
+}
+.box_2 [input], [type="tel"]{
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 65%;
+    padding: 10px;
+    text-align: center;
+    border-radius:10px ;
+    border: none;
+    background: #FFFFFF;
+}
+.box_2 [input], [type="email"]{
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 65%;
+    padding: 10px;
+    text-align: center;
+    border-radius:10px ;
+    border: none;
+    background: #FFFFFF;
+}
+.box_2 .city{
+    margin-left: 114px;
+    width: 65%;
+    padding: 10px;
+    border-radius:10px ;
+    text-align: center;
+    border: none;
+    background: #FFFFFF;
+}
+.box_2 .comments{
+    margin-left: 55px;
+    margin-top: 20px;
+    width: 65%;
+    padding: 10px;
+    border-radius:10px ;
+    text-align: center;
+    border: none;
+    background: #FFFFFF;
+}
+
+textarea{
+    vertical-align: calc(-40px);
+}
+label {
+    font-weight: bold;
+}
+.box_2 .f_pass{
+    margin: 35px 0px;
+    text-align: right;
+    border-bottom: 2px solid #003566;
+    width: 85%;
+    padding: 12px;
+}
+
+
+.box_2 .box{
+    margin-left: 500px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    background: #003566;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.924) 0px 6px 12px -2px, rgb(0, 0, 0) 0px 3px 7px -3px;
+    font-size: 1em;
+    padding: 6px 23px;
+}
+.box_2 .box a{
+    padding: 15px;
+    text-decoration:none;
+    color: #fff;
+}
+
+.box_2 .text2{
+    text-align: center;
+    width: 100%;
+    margin: 40px auto;
+}
+.box_2 .text2 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #003566;
+}
+ 
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    backdrop-filter: blur(30px);
+    background: transparent;
+    transition: opacity 1000ms;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 6px 12px -2px, rgba(255, 255, 255, 0.3) 0px 3px 7px -3px;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #003566;
+    border-radius: 20px;
+    width: 25%;
+    height: 230px;
+    position: relative;
+    transition: all 5s ease-in-out;
+    top: 45%;
+    left: 11%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .popup h2 {
+    margin-top: 55px;
+    color: #FFFFFF;
+    font-family: Tahoma, Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .popup .close {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+    text-align: center;
+    margin: 24px auto;
+    color: #F5F5F5;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative;
+      }
+      .box_1 {
+        width: 61%;
+        margin-left: -60px;
+    }
+    .box_1 p {
+      margin: 5px 100px;
+  }
+    .box_1 img {
+        width: 241px;
+        height: 90px;
+        margin: -7px 174px;
+    }
+    .box_1 .serv_img img {
+        width: 448px;
+        height: 398px;
+        margin: 29px 84px;
+    }
+    .box_2 {
+        width: 52%;
+        margin-left: -87px;
+    }
+    .box_2 .text h1 {
+      margin: -24px 27px;
+  }
+  .box_2 .text p {
+    margin: 23px 27px;
+}
+.box_2 .login_form {
+  margin: 20px 70px;
+}
+.login_form label {
+  margin: 20px -37px;
+}
+.box_2 [input], [type="text"] {
+  margin-left: 97px;
+  margin-top: -30px;
+  width: 76%;
+}
+.box_2 [input], [type="tel"] {
+  margin-left: 80px;
+  margin-top: 15px;
+  width: 77%;
+}
+.box_2 [input], [type="tel"] {
+  margin-left: 80px;
+}
+.box_2 [input], [type="email"] {
+  width: 77%;
+}
+.box_2 .city {
+  margin-left: 114px;
+  margin-top: 20px;
+  width: 77%;
+}
+.box_2 .comments {
+  width: 77%;
+}
+.box_2 .box {
+  margin-left: 245px;
+  margin-top: 13px;
+}
+.box_2 .f_pass {
+  margin: -8px -31px;
+  width: 106%;
+}
+.box_2 .text2 {
+  margin: 13px auto;
+}
+.popup {
+  width: 40%;
+  left: 25%;
+
+}
+    }
+   
+   

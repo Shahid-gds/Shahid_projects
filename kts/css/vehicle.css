@@ -1,0 +1,730 @@
+#vehicles .profile-details {
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  height: 50px;
+  min-width: 190px;
+  padding: 0 15px 0 2px;
+  margin-left: 129rem;
+}
+
+.dbox-table .search-box input[type="text"] {
+  height: 40px;
+  width: 250px;
+  border: 2px solid var(--blue);
+  border-radius: 10px;
+  padding: 20px 35px;
+  margin-left: 590px;
+  margin-top: 21px;
+}
+
+.dbox-table .pending-order a {
+  position: absolute;
+  align-items: center;
+  border-radius: 10px;
+  width: 170px;
+  padding: 12px 32px;
+  margin-left: 1320px;
+  background: var(--blue);
+  text-decoration: none;
+  color: var(--white);
+  margin-top: 11px;
+}
+
+.driver-name {
+  margin: 10px 136px;
+}
+
+.driver-name input[type=text] {
+  margin: 50px 73px;
+  padding: 15px 22px;
+  width: 60%;
+}
+
+.model-vehicle {
+  margin: -40px 136px;
+}
+
+.model-vehicle input[type=text] {
+  margin: 10px 46px;
+  padding: 15px 22px;
+  width: 60%;
+}
+
+.reg-num {
+  margin: 45px 136px;
+}
+
+.reg-num input[type=text] {
+  margin: 10px 73px;
+  padding: 15px 22px;
+  width: 60%;
+}
+
+/* this is for item selecting styling*/
+
+.oitem-select {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-left: 572px;
+  position: absolute;
+  z-index: 1;
+}
+
+.oitem-select .oitem-option {
+  padding: 5px 18px;
+  cursor: pointer;
+}
+
+.oitem-select .oitem-container {
+  background: white;
+  color: #003566;
+  margin-left: -324px;
+  margin-top: 10px;
+  box-shadow: rgb(12 0 0 / 25%) 0px 6px 12px -2px, rgb(15 1 1 / 30%) 0px 3px 7px -3px;
+  max-height: 0;
+  width: 15%;
+  opacity: 0;
+  transition: all 0.4s;
+  border-radius: 8px;
+  overflow: hidden;
+
+  order: 1;
+}
+
+.oitem-selected {
+  background: #EBEBEB;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  color: #0d141f;
+  position: absolute;
+  margin-left: -395px;
+  margin-top: -42px;
+  width: 25%;
+  height: 50px;
+  order: 0;
+}
+.search-content {
+  width: 130px;
+  height: 110px;
+  color: black;
+  background: white;
+  transition: all 0.35s;
+  box-shadow: rgb(12 0 0 / 25%) 0px 6px 12px -2px, rgb(15 1 1 / 30%) 0px 3px 7px -3px;
+  position: absolute;
+  margin-left: 725px;
+  border-radius: 15px;
+}
+
+.oitem-selected::after {
+  content: "\276F";
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 0px;
+  right: 10px;
+  top: 16px;
+  transition: all 0.35s;
+  position: absolute;
+  margin-top: -2px;
+  cursor: pointer;
+  left: 148px;
+}
+
+.oitem-select .oitem-container.active {
+  max-height: 500px;
+  opacity: 1;
+  /* overflow-y: scroll; */
+}
+
+.oitem-container.active+.oitem-selected::after {
+  transform: rotate(90deg);
+  transition: all 0.35s;
+  top: 12px;
+}
+
+.oitem-option input:checked[type="radio"]::after {
+  content: '';
+  position: absolute;
+  border: 2px solid var(--blue);
+  box-sizing: border-box;
+  transition: 0.5s;
+  margin: 2px 55px;
+  border-left: none;
+  border-top: none;
+  border-color: #003566;
+  transform: rotate(45deg) translate(5px, -10px);
+  width: 8px;
+  height: 15px;
+}
+
+.oitem-select .oitem-container::-webkit-scrollbar {
+  width: 8px;
+  background: #0d141f;
+  border-radius: 0 8px 8px 0;
+}
+
+.oitem-select .oitem-container::-webkit-scrollbar-thumb {
+  background: #525861;
+  border-radius: 0 8px 8px 0;
+}
+
+.oitem-select .oitem-selected {
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.oitem-select .item-option:hover {
+  background: var(--secondary);
+  border-radius: 10px;
+}
+
+.oitem-select label {
+  cursor: pointer;
+  margin-left: -2px;
+  font-size: 16px;
+  color: #003566;
+  font-weight: 600;
+}
+
+.oitem-option input[type="radio"] {
+  appearance: none;
+  border: none;
+  outline: none;
+}
+
+
+
+
+.ownership {
+  margin: -15px 136px;
+}
+
+.ownership input[type=text] {
+  margin: 10px 73px;
+  padding: 15px 22px;
+  width: 30%;
+}
+
+.ownership input[type="text"] {
+  position: absolute;
+  margin-left: 169px;
+  margin-top: -50px;
+  width: 27%;
+  padding: 15px 18px;
+  text-align: left;
+  border-radius: 10px;
+  border: none;
+  background: #EBEBEB;
+}
+
+/* this is for item selection styling*/
+.owner-content {
+  width: 109px;
+  height: 110px;
+  color: black;
+  background: white;
+  transition: all 0.35s;
+  box-shadow: rgb(12 0 0 / 25%) 0px 6px 12px -2px, rgb(15 1 1 / 30%) 0px 3px 7px -3px;
+  position: absolute;
+  margin-left: 256px;
+  border-radius: 15px;
+  z-index: 1;
+}
+
+#ownerarrow:checked+.owner-input::after {
+  transform: rotate(90deg);
+}
+
+/* #searcharrow:checked ~ .search-content{
+    max-height: 250px;
+    padding: 1em;
+  } */
+.owner-input::after {
+  content: "\276F";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+  margin-left: 320px;
+  position: absolute;
+  margin-top: -37px;
+  cursor: pointer;
+}
+
+.owned {
+  font-size: 16px;
+  margin-left: 8px;
+  margin-top: 9px;
+  color: #003566;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.rented {
+  font-size: 16px;
+  margin-left: 8px;
+  margin-top: 10px;
+  color: #003566;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.ownercheckbox1 {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 7px 5px;
+}
+
+.ownercheckbox1:hover {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--secondary);
+  margin: 7px 5px;
+  transition: 0.5s;
+}
+
+.ownercheckbox2 {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 15px 5px;
+}
+
+.ownercheckbox2:hover {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--secondary);
+  margin: 15px 5px;
+  transition: 0.5s;
+}
+
+.owner-content input[type="radio"] {
+  appearance: none;
+}
+
+.owner-content .ownercheckbox1 input:checked[type="radio"]:before {
+  content: '';
+  position: absolute;
+  border: 2px solid var(--blue);
+  box-sizing: border-box;
+  transition: 0.5s;
+  margin: -13px 8px;
+  border-left: none;
+  border-top: none;
+  border-color: #003566;
+  transform: rotate(45deg) translate(5px, -10px);
+  width: 8px;
+  height: 15px;
+}
+
+.owner-content .ownercheckbox2 input:checked[type="radio"]:before {
+  content: '';
+  position: absolute;
+  border: 2px solid var(--blue);
+  box-sizing: border-box;
+  transition: 0.5s;
+  margin: -13px 5px;
+  border-left: none;
+  border-top: none;
+  border-color: #003566;
+  transform: rotate(45deg) translate(5px, -10px);
+  width: 8px;
+  height: 15px;
+}
+
+.ownership-checkboxes {
+  margin-left: 9px;
+  margin-top: 30px;
+}
+
+.ownership-checkboxes {
+  display: flex;
+  align-items: center;
+  margin-left: -176px;
+  margin-top: 16px;
+}
+
+.ownership-checkboxes label {
+  cursor: pointer;
+  display: flex;
+  margin-left: 190px;
+  margin-top: 31px;
+}
+
+.ownership-checkboxesinput[type='checkbox'] {
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+}
+
+.ownership-checkboxes label::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  border: .15em;
+  margin-right: .5em;
+  border: 2px solid #003566;
+  border-radius: 5px;
+}
+
+/* .paymentcheckbox input[type='checkbox']:hover +label::before{
+    background: #003566;
+  } */
+.ownership-checkboxes input[type='checkbox']:checked+label::before {
+  content: '\002714';
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #003566;
+  width: 24px;
+  height: 24px;
+}
+
+/*dealer selecting option*/
+.vdealer-select {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-left: 572px;
+  position: absolute;
+  z-index: 2;
+}
+
+.vdealer-select .vdealer-option {
+  padding: 8px 18px;
+  cursor: pointer;
+}
+
+.vdealer-container {
+  background: white;
+  margin-left: -561px;
+  margin-top: 83px;
+  box-shadow: rgb(12 0 0 / 25%) 0px 6px 12px -2px, rgb(15 1 1 / 30%) 0px 3px 7px -3px;
+  max-height: 0;
+  width: 30%;
+  height: 20%;
+  opacity: 0;
+  transition: all 0.4s;
+  border-radius: 8px;
+  overflow: hidden;
+
+  order: 1;
+}
+
+.vdealer-selected {
+  background: #EBEBEB;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  color: #0d141f;
+  position: absolute;
+  margin-left: -561px;
+  margin-top: 30px;
+  width: 30%;
+  order: 0;
+}
+
+.vdealer-selected::after {
+  content: "\276F";
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 0px;
+  right: 10px;
+  top: 12px;
+  transition: all 0.35s;
+  position: absolute;
+  margin-top: -2px;
+  cursor: pointer;
+  left: 177px;
+}
+
+.vdealer-select .vdealer-container.active {
+  max-height: 500px;
+  opacity: 1;
+  /* overflow-y: scroll; */
+}
+
+.vdealer-container.active+.vdealer-selected::after {
+  transform: rotate(90deg);
+  transition: all 0.35s;
+  top: 12px;
+}
+
+.vdealer-option input:checked[type="radio"]::after {
+  content: '';
+  position: absolute;
+  border: 2px solid var(--blue);
+  box-sizing: border-box;
+  transition: 0.5s;
+  margin: 2px 148px;
+  border-left: none;
+  border-top: none;
+  border-color: #003566;
+  transform: rotate(45deg) translate(5px, -10px);
+  width: 8px;
+  height: 15px;
+}
+
+.vdealer-select .vdealer-container::-webkit-scrollbar {
+  width: 8px;
+  background: #0d141f;
+  border-radius: 0 8px 8px 0;
+}
+
+.vdealer-select .vdealer-container::-webkit-scrollbar-thumb {
+  background: #525861;
+  border-radius: 0 8px 8px 0;
+}
+
+.vdealer-select .vdealer-selected {
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.vdealer-select .vdealer-option:hover {
+  background: var(--secondary);
+  border-radius: 10px;
+}
+
+.vdealer-select label {
+  cursor: pointer;
+}
+
+.vdealer-option input[type="radio"] {
+  appearance: none;
+  border: none;
+  outline: none;
+}
+
+
+/*------------------------------------ this is for factory content styling*----------------------------------*/
+
+.vfactory-select {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-left: 841px;
+  position: absolute;
+  z-index: 2;
+}
+
+.vfactory-select .vfactory-option {
+  padding: 8px 18px;
+  cursor: pointer;
+}
+
+.vfactory-container {
+  background: white;
+  margin-left: -561px;
+  margin-top: 83px;
+  box-shadow: rgb(12 0 0 / 25%) 0px 6px 12px -2px, rgb(15 1 1 / 30%) 0px 3px 7px -3px;
+  max-height: 0;
+  width: 30%;
+  height: 20%;
+  opacity: 0;
+  transition: all 0.4s;
+  border-radius: 8px;
+  overflow: hidden;
+
+  order: 1;
+}
+
+.vfactory-selected {
+  background: #EBEBEB;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  color: #0d141f;
+  position: absolute;
+  margin-left: -561px;
+  margin-top: 30px;
+  width: 30%;
+  order: 0;
+}
+
+.vfactory-selected::after {
+  content: "\276F";
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 0px;
+  right: 10px;
+  top: 12px;
+  transition: all 0.35s;
+  position: absolute;
+  margin-top: -2px;
+  cursor: pointer;
+  left: 177px;
+}
+
+.vfactory-select .vfactory-container.active {
+  max-height: 500px;
+  opacity: 1;
+  /* overflow-y: scroll; */
+}
+
+.vfactory-container.active+.vfactory-selected::after {
+  transform: rotate(90deg);
+  transition: all 0.35s;
+  top: 12px;
+}
+
+.vfactory-option input:checked[type="radio"]::after {
+  content: '';
+  position: absolute;
+  border: 2px solid var(--blue);
+  box-sizing: border-box;
+  transition: 0.5s;
+  margin: 2px 148px;
+  border-left: none;
+  border-top: none;
+  border-color: #003566;
+  transform: rotate(45deg) translate(5px, -10px);
+  width: 8px;
+  height: 15px;
+}
+
+.vfactory-select .vfactory-container::-webkit-scrollbar {
+  width: 8px;
+  background: #0d141f;
+  border-radius: 0 8px 8px 0;
+}
+
+.vfactory-select .vfactory-container::-webkit-scrollbar-thumb {
+  background: #525861;
+  border-radius: 0 8px 8px 0;
+}
+
+.vfactory-select .vfactory-selected {
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.vfactory-select .vfactory-option:hover {
+  background: var(--secondary);
+  border-radius: 10px;
+}
+
+.vfactory-select label {
+  cursor: pointer;
+}
+
+.vfactory-option input[type="radio"] {
+  appearance: none;
+  border: none;
+  outline: none;
+}
+@media only screen and (min-device-width: 1367px) and (max-device-width: 1600px) {
+  #vehicles .profile-details {
+    margin-left: 1035px;
+}
+.search-content {
+  margin-left: 710px;
+}
+  .dbox-table .search-box {
+    margin-left: -213px;
+}
+.dbox-table .pending-order a {
+  margin-left: 1086px;
+}
+}
+/*-------------------------- 1366 Sreen media query------------------------*/
+@media (max-width: 1366px) {
+  #vehicles .profile-details {
+     margin-left: 86.5rem;
+   }
+ 
+   .dbox-table {
+     width: 110%;
+     margin-left: -80px;
+   }
+ 
+   .dbox-table .search-box {
+     margin-left: -375px;
+   }
+ 
+   .dbox-table .search-box .bx-search {
+     left: 624px;
+   }
+ 
+   .dbox-table .pending-order a {
+     margin-left: 911px;
+   }
+ 
+   table .pending {
+     width: 180px;
+   }
+ 
+   .pagination {
+     margin-left: 80rem;
+   }
+ 
+   .model-vehicle {
+    margin: -61px 136px;
+}
+.model-vehicle input[type=text] {
+  margin: 10px 52px
+}
+.driver-name input[type=text] {
+  margin: 50px 76px;
+}
+.oitem-select {
+  margin-left: 557px;
+}
+.ownership {
+  margin: -34px 136px;
+}
+.ownership-checkboxes label {
+  margin-top: 16px;
+}
+.vfactory-select {
+  margin-left: 832px;
+  margin-top: -20px;
+}
+.vdealer-select {
+  margin-top: -20px;
+}
+.vdealer-container {
+  margin-top: 75px;
+}
+.vfactory-container {
+  margin-top: 75px;
+}
+.vdealer-select .vdealer-container.active {
+  max-height: 180px;
+  opacity: 1;
+  overflow-y: scroll;
+}
+.vdealer-select .vdealer-container::-webkit-scrollbar {
+  width: 5px;
+}
+.vdealer-select .vdealer-container::-webkit-scrollbar-thumb {
+  background: #003566;
+  border-radius: 10px;
+}
+.vfactory-select .vfactory-container.active {
+  max-height: 180px;
+  opacity: 1;
+  overflow-y: scroll;
+}
+.vfactory-select .vfactory-container::-webkit-scrollbar {
+  width: 5px;
+}
+.vfactory-select .vfactory-container::-webkit-scrollbar-thumb {
+  background: #003566;
+  border-radius: 10px;
+}
+.reg-num {
+  width: 71%;
+  margin: 50px 110px;
+}
+.reg-num label{
+  margin-left: 35px;
+} 
+.btn {
+  top: 493px;
+  margin-left: -61px;
+} 
+ }

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="504" height="744" viewBox="0 0 504 744">
+  <g id="Group_4578" data-name="Group 4578" transform="translate(-6516 1977)">
+    <g id="Group_4577" data-name="Group 4577">
+      <path id="Path_283" data-name="Path 283" d="M0,0H34V202H0Z" transform="translate(6751 -1435)" fill="#f5f5f5"/>
+      <rect id="Rectangle_15" data-name="Rectangle 15" width="10" height="202" transform="translate(6775 -1435)" fill="#ccc"/>
+    </g>
+    <g id="Rectangle_13" data-name="Rectangle 13" transform="translate(6516 -1977)" fill="#00367d" stroke="#707070" stroke-width="1">
+      <rect width="504" height="594" rx="47" stroke="none"/>
+      <rect x="0.5" y="0.5" width="503" height="593" rx="46.5" fill="none"/>
+    </g>
+    <path id="Path_12" data-name="Path 12" d="M10.628,0,28.3,30.685l7.574,13.15L0,43.834,95.346,192.994l14.043-25.6L49.879,74.349H158.09l17.572-30.514H52.035l-7.576-13.15h156.73L105.142,207.858l18.521,28.062L247.072,0Z" transform="translate(6644.464 -1851.252)" fill="#fff"/>
+    <text id="PARKING" transform="translate(6768 -1499)" fill="#fff" font-size="82" font-family="Avenir-Heavy, Avenir" font-weight="800" letter-spacing="0.08em"><tspan x="-201.146" y="0">PARKING</tspan></text>
+  </g>
+</svg>

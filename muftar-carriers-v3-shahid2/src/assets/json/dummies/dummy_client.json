@@ -1,0 +1,52 @@
+{
+    "load_data": {
+        "user": {
+            "id": "broker_1",
+            "name": "Tesla",
+            "email": "contact@tesla.com",
+            "client_type": "Shipper",
+            "uri": "https://firebasestorage.googleapis.com/v0/b/muftar-digital-trucking.appspot.com/o/brokers%2Ftsla.png?alt=media&token=72f44ac7-de27-4d6b-bcad-0d3d0959fa9a"
+        },
+        "assignment": {
+            "assigned": false,
+            "driver": ""
+        },
+        "dispatcher_id": "",
+        "broker": {
+            "name": "nokia",
+            "agent": "Sam",
+            "id": "broker_100"
+        },
+        "created": 0,
+        "pickups": [{
+            "location_name": "Gigafactory",
+            "coordinates": { "longitude": 33.97118502769873, "latitude": -83.99684627680028 },
+            "address": {
+                "line1": "630 Collins Hill Rda",
+                "line2": "",
+                "city": "Lawrencevillea",
+                "state": "GAa",
+                "country": "United Statesa"
+            },
+            "pickup_time": 1637671336,
+            "notes": ""
+        }],
+        "dropoffs": [{
+            "location_name": "Gigafactory12345",
+            "coordinates": { "longitude": 33.971185027698723, "latitude": -83.996846276800228 },
+            "address": { "line1": "630 Collins Hill Rd", "line2": "", "city": "Lawrenceville", "state": "GA", "country": "United States" },
+            "pickup_time": 1637671336,
+            "notes": ""
+        }],
+        "stock_information": [{
+            "item": "Creates of video games",
+            "count": 30,
+            "weight": 10000
+        }],
+        "total_weight": 0,
+        "confirmation_number": "hello-one",
+        "time_completed": 0,
+        "payment": 100000,
+        "bol": ""
+    }
+}

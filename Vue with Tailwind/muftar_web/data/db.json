@@ -1,0 +1,45 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Ty Cooper"
+      },
+      {
+        "id": 2,
+        "name": "Muhammad Manahir"
+      },
+      {
+        "id": 3,
+        "name": "Mehmed Tiro"
+      },
+      {
+        "id": 4,
+        "name": "Ahmer"
+      },
+      {
+        "id": 5,
+        "name": "Shahid Khan"
+      },
+      {
+        "id": 6,
+        "name": "Muhammad Tabish"
+      },
+      {
+        "id": 7,
+        "name": "Muftar"
+      },
+      {
+        "id": 8,
+        "name": "Muftar Carrier"
+      }
+    ],
+    "paymentReceipt": [
+      {
+        "refNumber": "000085752257",
+        "status": "Success",
+        "date": "25-02-2023,12:22:16",
+        "amount": "IDR 1,000,000"
+    }
+    ]
+  }
+  

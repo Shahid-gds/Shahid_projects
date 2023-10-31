@@ -1,0 +1,185 @@
+/* This is for Login From Main_Section */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+    background:  #003566;
+    
+}
+.main_section {
+    width: 100%;
+    height: 90vh;
+    margin: 35px auto;
+    background: #003566;
+    display: flex;
+}
+.box_1{
+    width: 50%;
+    height: 70vh;
+}
+.box_1 img{
+    width: 297px;
+    height: 125px;
+    margin: 50px 250px;
+}
+.box_1 p{
+    color: white;
+    margin: -50px 100px;
+    text-align: center;
+}
+.box_1 .serv_img img{
+    width: 600px;
+    height: 450px;
+    margin: 100px 130px;
+    background-position: center;
+}
+.box_2{
+    width: 50%;
+    height: 96vh;
+    background: #F5F5F5;
+    border-radius: 20px;
+    margin: -20px;
+    margin-left: -20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.box_2 .text h1{
+    color: #373737;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.box_2 .text{
+    margin: 100px;
+    text-align: center;
+    color: #373737;
+    width: 80%;
+}
+.boxes{
+    width: 80%;
+    height: 300px;
+    margin: -60px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.boxes img {
+    font-size: 50px;
+    margin: 40px;
+}
+.boxes a{
+    text-decoration: none;
+    color: #373737;
+}
+.b-box1{ 
+    width: 30%;
+    height: 200px;
+    border: 2px solid #707070 !important;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.b-box2{
+    width: 30%;
+    height: 200px;
+    border: 2px solid #707070 !important;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.b-box3{
+    width: 30%;
+    height: 200px;
+    border: 2px solid #707070 !important;
+    margin: 0 150px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.b-box1:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border: none;
+    transition: 0.5s;
+}
+.b-box2:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border: none;
+    transition: 0.5s;
+}
+.b-box3:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border: none;
+    transition: 0.5s;
+}
+@media screen and (max-width: 1024px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative;
+      }
+      .box_1 {
+        width: 61%;
+        margin-left: -60px;
+    }
+    .box_1 img {
+        width: 241px;
+        height: 90px;
+        margin: -7px 174px;
+    }
+    .box_1 .serv_img img {
+        width: 448px;
+        height: 398px;
+        margin: 29px 84px;
+    }
+    .box_2 {
+        width: 52%;
+        margin-left: -87px;
+    }
+    .boxes{
+        margin-top: 20px;
+    }
+    .b-box1 {
+        width: 35%;
+        height: 137px;
+        margin: -26px -115px;
+    }
+    .box_1 p {
+        color: white;
+        margin: 0px 100px;
+        text-align: center;
+    }
+    .b-box2 {
+        width: 35%;
+        height: 137px;
+        margin: -26px 178px;
+    }
+    .boxes img {
+        margin: 12px;
+        width: 50px;
+    }
+    .b-box3 {
+        width: 35%;
+        height: 137px;
+        margin: 43px -6px;
+    }
+    .box_2 .text h1 {
+        font-size: 25px;
+        margin-top: -67px;
+        margin-left: -20px;
+    }
+    .box_2 .text p {
+        margin-top: 10px;
+        margin-left: -74px;
+    }
+    .b-text{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 480px) {
+    
+    }

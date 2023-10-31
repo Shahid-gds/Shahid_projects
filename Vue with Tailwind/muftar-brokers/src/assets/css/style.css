@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Avenir'; 
+    src: url(../Avenir/Avenir\ LT\ Std\ 95\ Black.otf) format('truetype');
+}
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #DEE1F8;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #A2A5D8;
+    border-radius: 5px;
+  }

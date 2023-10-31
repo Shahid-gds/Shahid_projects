@@ -1,0 +1,44 @@
+[
+  {
+    "id": "broker_1",
+    "name": "Tesla",
+    "client_type": "Shipper",
+    "isPublic": true,
+    "uri": "https://firebasestorage.googleapis.com/v0/b/muftar-digital-trucking.appspot.com/o/brokers%2Ftsla.png?alt=media&token=72f44ac7-de27-4d6b-bcad-0d3d0959fa9a"
+  },
+  {
+    "id": "broker_2",
+    "name": "Walmart",
+    "client_type": "Shipper",
+    "isPublic": true,
+    "uri": "https://firebasestorage.googleapis.com/v0/b/muftar-digital-trucking.appspot.com/o/brokers%2Fwalmart.png?alt=media&token=adf2585f-638d-4991-8dbd-b2a640aa5ec5"
+  },
+  {
+    "id": "broker_3",
+    "name": "Shopify",
+    "client_type": "Shipper",
+    "isPublic": true,
+    "uri": "https://firebasestorage.googleapis.com/v0/b/muftar-digital-trucking.appspot.com/o/brokers%2Fshoppify_passive_income.jpeg?alt=media&token=520a434b-7a52-4f8f-afd8-1f3093af2856"
+  },
+  {
+    "id": "broker_4",
+    "name": "JB Hunt",
+    "client_type": "Broker",
+    "isPublic": false,
+    "uri": "https://firebasestorage.googleapis.com/v0/b/muftar-digital-trucking.appspot.com/o/brokers%2Fjb_hunt.png?alt=media&token=bd50ce9d-55d1-4ac7-b0ed-79631c7fca13"
+  },
+  {
+    "id": "broker_5",
+    "name": "Gymshark",
+    "client_type": "Shipper",
+    "isPublic": false,
+    "uri": "https://firebasestorage.googleapis.com/v0/b/muftar-digital-trucking.appspot.com/o/brokers%2Fgym.png?alt=media&token=e6d630dc-19f7-4508-bc33-ad8b008d18e8"
+  },
+  {
+    "id": "broker_6",
+    "name": "Apple",
+    "client_type": "Shipper",
+    "isPublic": true,
+    "uri": "https://firebasestorage.googleapis.com/v0/b/muftar-digital-trucking.appspot.com/o/brokers%2Fapple_ar.jpeg?alt=media&token=3c2923a2-598d-4c72-82aa-ad873d6261dd"
+  }
+]

@@ -1,0 +1,261 @@
+#purchase .profile-details {
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  height: 50px;
+  min-width: 190px;
+  padding: 0 15px 0 2px;
+  margin-left: 128rem;
+}
+
+.dbox-table .search-box input[type="text"] {
+  height: 40px;
+  width: 250px;
+  border: 2px solid var(--blue);
+  border-radius: 10px;
+  padding: 20px 35px;
+  margin-left: 580px;
+  margin-top: 21px;
+}
+
+.dbox-table .pending-order a {
+  position: absolute;
+  align-items: center;
+  border-radius: 10px;
+  width: 170px;
+  padding: 12px 25px;
+  margin-left: 1320px;
+  background: var(--blue);
+  text-decoration: none;
+  color: var(--white);
+  margin-top: 11px;
+}
+
+.current_date {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#date-today {
+  margin-left: 151px;
+  margin-top: 0;
+  width: 16%;
+  padding: 15px 18px;
+  text-align: left;
+  border-radius: 10px;
+  border: none;
+  background: #EBEBEB;
+}
+
+.date {
+  margin-left: 148px;
+  margin-top: 20px;
+}
+
+.purchase-dp {
+  display: flex;
+  width: 100%;
+}
+
+.p-number {
+  margin-left: -391px;
+}
+
+.p-no {
+  margin-left: 10px;
+  margin-top: 18px;
+}
+
+#p-no {
+  position: absolute;
+  margin-left: 89px;
+  margin-top: -42px;
+  width: 15%;
+  padding: 15px 18px;
+  text-align: left;
+  border-radius: 10px;
+  border: none;
+  background: #EBEBEB;
+}
+
+/* this is for item selecting styling*/
+
+.pitem-select {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-left: 572px;
+  position: absolute;
+  z-index: 1;
+}
+
+.pitem-select .pitem-option {
+  padding: 5px 18px;
+  cursor: pointer;
+}
+
+.pitem-select .pitem-container {
+  background: white;
+  color: #003566;
+  margin-left: 40px;
+  margin-top: 10px;
+  box-shadow: rgb(12 0 0 / 25%) 0px 6px 12px -2px, rgb(15 1 1 / 30%) 0px 3px 7px -3px;
+  max-height: 0;
+  width: 15%;
+  opacity: 0;
+  transition: all 0.4s;
+  border-radius: 8px;
+  overflow: hidden;
+
+  order: 1;
+}
+.search-content {
+  width: 130px;
+  height: 110px;
+  color: black;
+  background: white;
+  transition: all 0.35s;
+  box-shadow: rgba(12, 0, 0, 0.25) 0px 6px 12px -2px, rgba(15, 1, 1, 0.3) 0px 3px 7px -3px;
+  position: absolute;
+  margin-left: 712px;
+  border-radius: 15px;
+}
+.pitem-selected {
+  background: #EBEBEB;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  color: #0d141f;
+  position: absolute;
+  margin-left: -240px;
+  margin-top: -42px;
+  width: 55%;
+  height: 45px;
+  order: 0;
+}
+
+.pitem-selected::after {
+  content: "\276F";
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 0px;
+  right: 10px;
+  top: 12px;
+  transition: all 0.35s;
+  position: absolute;
+  margin-top: -2px;
+  cursor: pointer;
+  left: 344px;
+}
+
+.pitem-select .pitem-container.active {
+  max-height: 500px;
+  opacity: 1;
+  /* overflow-y: scroll; */
+}
+
+.pitem-container.active+.pitem-selected::after {
+  transform: rotate(90deg);
+  transition: all 0.35s;
+  top: 12px;
+}
+
+.pitem-option input:checked[type="radio"]::after {
+  content: '';
+  position: absolute;
+  border: 2px solid var(--blue);
+  box-sizing: border-box;
+  transition: 0.5s;
+  margin: 2px 55px;
+  border-left: none;
+  border-top: none;
+  border-color: #003566;
+  transform: rotate(45deg) translate(5px, -10px);
+  width: 8px;
+  height: 15px;
+}
+
+.pitem-select .pitem-container::-webkit-scrollbar {
+  width: 8px;
+  background: #0d141f;
+  border-radius: 0 8px 8px 0;
+}
+
+.pitem-select .pitem-container::-webkit-scrollbar-thumb {
+  background: #525861;
+  border-radius: 0 8px 8px 0;
+}
+
+.pitem-select .pitem-selected {
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.pitem-select .pitem-option:hover {
+  background: var(--secondary);
+  border-radius: 10px;
+}
+
+.pitem-select label {
+  cursor: pointer;
+  margin-left: -2px;
+  font-size: 16px;
+  color: #003566;
+  font-weight: 600;
+}
+
+.items-box .pitem-option input[type="radio"] {
+  appearance: none;
+  border: none;
+  outline: none;
+}
+@media only screen and (min-device-width: 1367px) and (max-device-width: 1600px) {
+  #purchase .profile-details {
+    margin-left: 1022px;
+}
+.search-content {
+  margin-left: 710px;
+}
+  .dbox-table .search-box {
+    margin-left: -213px;
+}
+.dbox-table .pending-order a {
+  margin-left: 1086px;
+}
+}
+/*-------------------------- 1366 Sreen media query------------------------*/
+@media (max-width: 1366px) {
+ #purchase .profile-details {
+    margin-left: 86.2rem;
+  }
+  .search-content {
+    margin-left: 710px;
+}
+  .dbox-table {
+    width: 110%;
+    margin-left: -80px;
+  }
+
+  .dbox-table .search-box {
+    margin-left: -370px;
+}
+
+  .dbox-table .search-box .bx-search {
+    left: 624px;
+  }
+
+  .dbox-table .pending-order a {
+    margin-left: 911px;
+  }
+
+  table .pending {
+    width: 180px;
+  }
+
+  .pagination {
+    margin-left: 80rem;
+  }
+  #date-today {
+    margin-left: 159px;
+}
+}

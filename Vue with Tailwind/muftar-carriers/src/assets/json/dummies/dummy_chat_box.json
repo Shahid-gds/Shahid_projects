@@ -1,0 +1,23 @@
+{
+    "chatData": [{
+            "name": "Yousuf",
+            "message": "This is very dope and im very imprtant.....",
+            "time": "12:00 am"
+        },
+        {
+            "name": "Ty Cooper",
+            "message": "This is very dope and im very imprtant.....",
+            "time": "8:00 pm"
+        },
+        {
+            "name": "Manahir",
+            "message": "This is very dope and im very imprtant.....",
+            "time": "2:00 am"
+        },
+        {
+            "name": "Mehmed",
+            "message": "This is very dope and im very imprtant.....",
+            "time": "1:00 pm"
+        }
+    ]
+}

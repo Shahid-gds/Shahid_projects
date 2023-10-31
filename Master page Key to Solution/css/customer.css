@@ -1,0 +1,167 @@
+#customers .profile-details{
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    height: 50px;
+    min-width: 190px;
+    padding: 0 15px 0 2px;
+    margin-left: 125.5rem;
+  }
+.cbox-table{
+    width: 100%;
+    height: 360px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+.cbox-table .pending-order {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  padding: 0 20px;
+  transition: all 0.5s ease;
+  background: transparent;
+}
+.cbox-table .pending-order .days-details{
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  height: 50px;
+  min-width: 154px;
+  padding: 0;
+  margin-left: 888px;
+  background: var(--blue);
+}
+.cbox-table .pending-order .month-details{
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  height: 50px;
+  min-width: 95px;
+  padding: 0;
+  margin-left:8px;
+  background: var(--blue);
+}
+.cbox-table .pending-order .days-details .days, .month-details .month{
+  color: var(--white);
+  font-size: 15px;
+  padding: 10px 13px 22px;
+}
+.cbox-table .pending-order .days-details i, .month-details i{
+  color: var(--white);
+  font-size: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.cbox-table .pending-order .delete {
+  width: 60px;
+  height: 50px;
+  background: #E6E6E6;
+  margin-left: 1344px;
+  position: absolute;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.cbox-table .pending-order .edit {
+  width: 60px;
+  height: 50px;
+  background: #E6E6E6;
+  margin-left: 1415px;
+  position: absolute;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.cbox-table .search-box input[type="text"]{
+  height: 40px;
+  width: 250px;
+  border: 2px solid var(--blue);
+  border-radius: 10px;
+  padding: 20px 35px;
+  margin-left: 590px;
+  margin-top: 21px;
+}
+.cbox-table .search-box .bx-search{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 1142px;
+  top: 143px;
+  transform: translateY(-50%);
+  border-radius: 4px;
+  line-height: 40px;
+  text-align: center;
+  color: #003566;
+  font-size: 30px;
+  transition: all 0.4 ease;
+  cursor: pointer;
+}
+.cbox-table .pending-order a{
+    position: absolute;
+    align-items: center;
+    border-radius: 10px;
+    width: 170px;
+    padding: 12px 20px;
+    margin-left: 1320px;
+    background: var(--blue);
+    text-decoration: none;
+    color: var(--white);
+    margin-top: 11px;
+  }
+  /*This is for customer overlay form styling*/
+  .customer-name input[type="text"]{
+    margin-left: 10px;
+    margin-top: 28px;
+    width: 55%;
+    height: 60px;
+    padding: 25px;
+    text-align: left;
+    border-radius:10px ;
+    border: none;
+    background: #EBEBEB;
+  }
+  .customer-moble input[type="tel"]{
+    margin-left: 10px;
+    margin-top: 35px;
+    width: 55%;
+    height: 60px;
+    padding: 25px;
+    text-align: left;
+    border-radius:10px ;
+    border: none;
+    background: #EBEBEB;
+  }
+  .customer-email [type="email"]{
+    margin-left: 84px;
+    margin-top: 35px;
+    width: 55%;
+    height: 60px;
+    padding: 25px;
+    text-align: left;
+    border-radius:10px ;
+    border: none;
+    background: #EBEBEB;
+  }
+  .customer-openingbalance input[type='text']{
+    margin-left: 9px;
+    width: 55%;
+    height: 60px;
+    padding: 25px;
+    border-radius:10px ;
+    text-align: left;
+    border: none;
+    background: #EBEBEB;
+    margin-top: 30px;
+  }
+  .edit-content .comments{
+    margin-left: 26px;
+    margin-top: 30px;
+    width: 55%;
+    padding: 10px;
+    border-radius:10px ;
+    text-align: left;
+    border: none;
+    background: #EBEBEB;
+  }
+  
+.edit-content textarea{
+    vertical-align: calc(-20px);
+  }

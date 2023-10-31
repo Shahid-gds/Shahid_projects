@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <g id="Group_1407" data-name="Group 1407" transform="translate(46 207)">
+    <g id="Ellipse_1_copy" data-name="Ellipse 1 copy" transform="translate(-46 -207)" fill="rgba(107,89,211,0)" stroke="#bcbdbd" stroke-linejoin="round" stroke-width="3">
+      <circle cx="21" cy="21" r="21" stroke="none"/>
+      <circle cx="21" cy="21" r="19.5" fill="none"/>
+    </g>
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="15.5" cy="15" rx="15.5" ry="15" transform="translate(-41 -201)" fill="#bcbdbd"/>
+    <path id="Icon_awesome-check" data-name="Icon awesome-check" d="M5.7,16.847.246,11.392a.839.839,0,0,1,0-1.187L1.433,9.019a.839.839,0,0,1,1.187,0l3.675,3.674,7.87-7.87a.839.839,0,0,1,1.187,0L16.538,6.01a.839.839,0,0,1,0,1.187L6.887,16.847A.839.839,0,0,1,5.7,16.847Z" transform="translate(-34.177 -197.125)" fill="#fff"/>
+  </g>
+</svg>

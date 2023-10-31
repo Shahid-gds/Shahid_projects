@@ -1,0 +1,730 @@
+.dbox-table .search-box input[type="text"] {
+    height: 40px;
+    width: 250px;
+    border: 2px solid var(--blue);
+    border-radius: 10px;
+    padding: 20px 35px;
+    margin-left: 590px;
+    margin-top: 21px;
+}
+.dbox-table .pending-order a {
+    position: absolute;
+    align-items: center;
+    border-radius: 10px;
+    width: 170px;
+    padding: 12px 32px;
+    margin-left: 1320px;
+    background: var(--blue);
+    text-decoration: none;
+    color: var(--white);
+    margin-top: 11px;
+}
+.driver-name{
+    margin: 10px 136px;
+}
+.driver-name input[type=text]{
+    margin: 50px 73px;
+    padding: 15px 22px;
+    width: 60%;
+}
+.model-vehicle{
+    margin: -40px 136px;
+}
+.model-vehicle input[type=text]{
+    margin: 10px 46px;
+    padding: 15px 22px;
+    width: 60%;
+}
+.reg-num{
+    margin: 45px 136px;
+}
+.reg-num input[type=text]{
+    margin: 10px 73px;
+    padding: 15px 22px;
+    width: 60%;
+}
+.ownership{
+    margin: -15px 136px;
+}
+.ownership input[type=text]{
+    margin: 10px 73px;
+    padding: 15px 22px;
+    width: 30%;
+}
+.ownership input[type="text"] {
+    position: absolute;
+    margin-left: 169px;
+    margin-top: -50px;
+    width: 27%;
+    padding: 15px 18px;
+    text-align: left;
+    border-radius: 10px;
+    border: none;
+    background: #EBEBEB;
+  }
+  /* this is for item selection styling*/
+  .owner-content {
+    width: 109px;
+    height: 110px;
+    color: black;
+    background: white;
+    transition: all 0.35s;
+    box-shadow: rgb(12 0 0 / 25%) 0px 6px 12px -2px, rgb(15 1 1 / 30%) 0px 3px 7px -3px;
+    position: absolute;
+    margin-left: 256px;
+    border-radius: 15px;
+    z-index: 1;
+  }
+  #ownerarrow:checked + .owner-input::after {
+    transform: rotate(90deg);
+  }
+  
+  /* #searcharrow:checked ~ .search-content{
+    max-height: 250px;
+    padding: 1em;
+  } */
+  .owner-input::after {
+    content: "\276F";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transition: all 0.35s;
+    margin-left: 320px;
+    position: absolute;
+    margin-top: -37px;
+    cursor: pointer;
+  }
+  .owned{
+    font-size: 16px;
+    margin-left: 8px;
+    margin-top: 9px;
+    color: #003566;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .rented{
+    font-size: 16px;
+    margin-left: 8px;
+    margin-top: 10px;
+    color: #003566;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .ownercheckbox1{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 7px 5px;
+  }
+  .ownercheckbox1:hover{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--secondary);
+    margin: 7px 5px;
+    transition: 0.5s;
+  }
+  .ownercheckbox2{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 15px 5px;
+  }
+  .ownercheckbox2:hover{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--secondary);
+    margin: 15px 5px;
+    transition: 0.5s;
+  }
+  .owner-content input[type="radio"]{
+    appearance: none;
+  }
+  .owner-content .ownercheckbox1 input:checked[type="radio"]:before{
+    content: '';
+    position: absolute;
+    border: 2px solid var(--blue);
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: -13px 8px;
+    border-left: none;
+    border-top: none;
+    border-color: #003566;
+    transform: rotate(45deg) translate(5px, -10px);
+    width: 8px;
+    height: 15px;
+  }
+  .owner-content .ownercheckbox2 input:checked[type="radio"]:before{
+    content: '';
+    position: absolute;
+    border: 2px solid var(--blue);
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: -13px 5px;
+    border-left: none;
+    border-top: none;
+    border-color: #003566;
+    transform: rotate(45deg) translate(5px, -10px);
+    width: 8px;
+    height: 15px;
+  }
+  .ownership-checkboxes{
+    margin-left: 9px;
+    margin-top: 30px;
+  }
+  
+  .ownership-checkboxes{
+      display: flex;
+      align-items: center;
+      margin-left: -176px;
+      margin-top: -5px;
+  }
+  .ownership-checkboxes label{
+    cursor: pointer;
+    display: flex;
+    margin-left: 190px;
+    margin-top: 31px;
+  }
+  .ownership-checkboxesinput[type='checkbox']{
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+  }
+  .ownership-checkboxes label::before{
+    content: '';
+    width: 24px;
+    height: 24px;
+    border: .15em;
+    margin-right: .5em;
+    border: 2px solid #003566;
+    border-radius: 5px;
+  }
+  /* .paymentcheckbox input[type='checkbox']:hover +label::before{
+    background: #003566;
+  } */
+  .ownership-checkboxes input[type='checkbox']:checked + label::before{
+    content: '\002714';
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #003566;
+    width: 24px;
+    height: 24px;
+  }
+  .boxes-content .dealer-box input[type='text']{
+    margin: 12px 2px;
+  }
+  .boxes-content .factory-box input[type='text']{
+    margin: -8px 268px;
+  }
+  .dealerbox-input::after {
+    content: "\276F";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transition: all 0.35s;
+    margin-left: 160px;
+    position: absolute;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.dealerbox-content {
+    width: 180px;
+    height: 285px;
+    color:black;
+    background: white;
+    transition: all 0.35s;
+    box-shadow: rgba(12, 0, 0, 0.25) 0px 6px 12px -2px, rgba(15, 1, 1, 0.3) 0px 3px 7px -3px;
+    position: absolute;
+    margin-left: 10px;
+    border-radius: 15px;
+    z-index: 2;
+    margin-top: 70px;
+  }
+  #dealerboxarrow:checked + .dealerbox-input::after {
+    transform: rotate(90deg);
+  }
+  
+  
+  /* #searcharrow:checked ~ .search-content{
+    max-height: 250px;
+    padding: 1em;
+  } */
+  .dealer1{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 9px;
+    color: #003566;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .dealer2{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 9px;
+    color: #003566;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .dealer3{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 9px;
+    color: #003566;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .dealer4{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 9px;
+    color: #003566;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .dealer5{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 9px;
+    color: #003566;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .dealer6{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 9px;
+    color: #003566;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .dealerboxcheckbox1{
+    width: 174px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 7px 2px;
+  }
+  .dealerboxcheckbox1:hover{
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--secondary);
+    margin: 7px 2px;
+    transition: 0.5s;
+  }
+  .dealerboxcheckbox2{
+    width: 174px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 7px 2px;
+  }
+  .dealerboxcheckbox2:hover{
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--secondary);
+    margin: 7px 2px;
+    transition: 0.5s;
+  }
+  .dealerboxcheckbox3{
+    width: 174px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 7px 2px;
+  }
+  .dealerboxcheckbox3:hover{
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--secondary);
+    margin: 7px 2px;
+    transition: 0.5s;
+  }
+  .dealerboxcheckbox4{
+    width: 174px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 7px 2px;
+  }
+  .dealerboxcheckbox4:hover{
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--secondary);
+    margin: 7px 2px;
+    transition: 0.5s;
+  }
+  .dealerboxcheckbox5{
+    width: 174px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 7px 2px;
+  }
+  .dealerboxcheckbox5:hover{
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--secondary);
+    margin: 7px 2px;
+    transition: 0.5s;
+  }
+  .dealerboxcheckbox6{
+    width: 174px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 7px 2px;
+  }
+  .dealerboxcheckbox6:hover{
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--secondary);
+    margin: 7px 2px;
+    transition: 0.5s;
+  }
+  .dealerbox-content input[type="radio"]{
+    appearance: none;
+  }
+  .dealerbox-content .dealerboxcheckbox1 input:checked[type="radio"]:before{
+    content: '';
+    position: absolute;
+    border: 2px solid var(--blue);
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: -13px 8px;
+    border-left: none;
+    border-top: none;
+    border-color: #003566;
+    transform: rotate(45deg) translate(5px, -10px);
+    width: 8px;
+    height: 15px;
+  }
+  .dealerbox-content .dealerboxcheckbox2 input:checked[type="radio"]:before{
+    content: '';
+    position: absolute;
+    border: 2px solid var(--blue);
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: -13px 53px;
+    border-left: none;
+    border-top: none;
+    border-color: #003566;
+    transform: rotate(45deg) translate(5px, -10px);
+    width: 8px;
+    height: 15px;
+  }
+  .dealerbox-content .dealerboxcheckbox3 input:checked[type="radio"]:before{
+    content: '';
+    position: absolute;
+    border: 2px solid var(--blue);
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: -13px 65px;
+    border-left: none;
+    border-top: none;
+    border-color: #003566;
+    transform: rotate(45deg) translate(5px, -10px);
+    width: 8px;
+    height: 15px;
+  }
+  .dealerbox-content .dealerboxcheckbox4 input:checked[type="radio"]:before{
+    content: '';
+    position: absolute;
+    border: 2px solid var(--blue);
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: -13px 86px;
+    border-left: none;
+    border-top: none;
+    border-color: #003566;
+    transform: rotate(45deg) translate(5px, -10px);
+    width: 8px;
+    height: 15px;
+  }
+  .dealerbox-content .dealerboxcheckbox5 input:checked[type="radio"]:before{
+    content: '';
+    position: absolute;
+    border: 2px solid var(--blue);
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: -13px 55px;
+    border-left: none;
+    border-top: none;
+    border-color: #003566;
+    transform: rotate(45deg) translate(5px, -10px);
+    width: 8px;
+    height: 15px;
+  }
+  .dealerbox-content .dealerboxcheckbox6 input:checked[type="radio"]:before{
+    content: '';
+    position: absolute;
+    border: 2px solid var(--blue);
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: -13px 86px;
+    border-left: none;
+    border-top: none;
+    border-color: #003566;
+    transform: rotate(45deg) translate(5px, -10px);
+    width: 8px;
+    height: 15px;
+  }
+/*------------------------------------ this is for factory content styling*----------------------------------*/
+
+.factorybox-input::after {
+    content: "\276F";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transition: all 0.35s;
+    margin-left: 425px;
+    position: absolute;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.factorybox-content {
+    width: 180px;
+    height: 285px;
+    color:black;
+    background: white;
+    transition: all 0.35s;
+    box-shadow: rgba(12, 0, 0, 0.25) 0px 6px 12px -2px, rgba(15, 1, 1, 0.3) 0px 3px 7px -3px;
+    position: absolute;
+    margin-left: 290px;
+    border-radius: 15px;
+    z-index: 2;
+    margin-top: 40px;
+  }
+  #factoryboxarrow:checked + .factorybox-input::after {
+    transform: rotate(90deg);
+  }
+  
+  
+  /* #searcharrow:checked ~ .search-content{
+    max-height: 250px;
+    padding: 1em;
+  } */
+  .factory1{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 9px;
+    color: #003566;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .factory2{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 9px;
+    color: #003566;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .factory3{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 9px;
+    color: #003566;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .factory4{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 9px;
+    color: #003566;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .factory5{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 9px;
+    color: #003566;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .factory6{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 9px;
+    color: #003566;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .factoryboxcheckbox1{
+    width: 174px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 7px 2px;
+  }
+  .factoryboxcheckbox1:hover{
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--secondary);
+    margin: 7px 2px;
+    transition: 0.5s;
+  }
+  .factoryboxcheckbox2{
+    width: 174px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 7px 2px;
+  }
+  .factoryboxcheckbox2:hover{
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--secondary);
+    margin: 7px 2px;
+    transition: 0.5s;
+  }
+  .factoryboxcheckbox3{
+    width: 174px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 7px 2px;
+  }
+  .factoryboxcheckbox3:hover{
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--secondary);
+    margin: 7px 2px;
+    transition: 0.5s;
+  }
+  .factoryboxcheckbox4{
+    width: 174px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 7px 2px;
+  }
+  .factoryboxcheckbox4:hover{
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--secondary);
+    margin: 7px 2px;
+    transition: 0.5s;
+  }
+  .factoryboxcheckbox5{
+    width: 174px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 7px 2px;
+  }
+  .factoryboxcheckbox5:hover{
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--secondary);
+    margin: 7px 2px;
+    transition: 0.5s;
+  }
+  .factoryboxcheckbox6{
+    width: 174px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 7px 2px;
+  }
+  .factoryboxcheckbox6:hover{
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--secondary);
+    margin: 7px 2px;
+    transition: 0.5s;
+  }
+  .factorybox-content input[type="radio"]{
+    appearance: none;
+  }
+  .factorybox-content .factoryboxcheckbox1 input:checked[type="radio"]:before{
+    content: '';
+    position: absolute;
+    border: 2px solid var(--blue);
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: -13px 8px;
+    border-left: none;
+    border-top: none;
+    border-color: #003566;
+    transform: rotate(45deg) translate(5px, -10px);
+    width: 8px;
+    height: 15px;
+  }
+  .factorybox-content .factoryboxcheckbox2 input:checked[type="radio"]:before{
+    content: '';
+    position: absolute;
+    border: 2px solid var(--blue);
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: -13px 53px;
+    border-left: none;
+    border-top: none;
+    border-color: #003566;
+    transform: rotate(45deg) translate(5px, -10px);
+    width: 8px;
+    height: 15px;
+  }
+  .factorybox-content .factoryboxcheckbox3 input:checked[type="radio"]:before{
+    content: '';
+    position: absolute;
+    border: 2px solid var(--blue);
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: -13px 65px;
+    border-left: none;
+    border-top: none;
+    border-color: #003566;
+    transform: rotate(45deg) translate(5px, -10px);
+    width: 8px;
+    height: 15px;
+  }
+  .factorybox-content .factoryboxcheckbox4 input:checked[type="radio"]:before{
+    content: '';
+    position: absolute;
+    border: 2px solid var(--blue);
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: -13px 86px;
+    border-left: none;
+    border-top: none;
+    border-color: #003566;
+    transform: rotate(45deg) translate(5px, -10px);
+    width: 8px;
+    height: 15px;
+  }
+  .factorybox-content .factoryboxcheckbox5 input:checked[type="radio"]:before{
+    content: '';
+    position: absolute;
+    border: 2px solid var(--blue);
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: -13px 55px;
+    border-left: none;
+    border-top: none;
+    border-color: #003566;
+    transform: rotate(45deg) translate(5px, -10px);
+    width: 8px;
+    height: 15px;
+  }
+  .factorybox-content .factoryboxcheckbox6 input:checked[type="radio"]:before{
+    content: '';
+    position: absolute;
+    border: 2px solid var(--blue);
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: -13px 86px;
+    border-left: none;
+    border-top: none;
+    border-color: #003566;
+    transform: rotate(45deg) translate(5px, -10px);
+    width: 8px;
+    height: 15px;
+  }

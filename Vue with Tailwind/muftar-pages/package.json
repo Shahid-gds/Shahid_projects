@@ -1,0 +1,31 @@
+{
+  "name": "muftar_app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/js": "^7.2.96",
+    "axios": "^1.4.0",
+    "mdi-vue": "^3.0.13",
+    "perfect-scrollbar": "^1.5.5",
+    "pinia": "^2.0.35",
+    "vue": "^3.2.47",
+    "vue-mapbox-ts": "^0.9.7",
+    "vue-router": "^4.1.6",
+    "vue-slick": "^1.2.0",
+    "vue-slick-carousel": "^1.0.6",
+    "vue3-carousel": "^0.3.1",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.1",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.4"
+  }
+}

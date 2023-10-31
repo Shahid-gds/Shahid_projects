@@ -1,0 +1,124 @@
+[
+    {
+        "id": "statement-1",
+        "company": {
+            "id": "XMThd77dS0oiwhKhAO7t",
+            "phone": "",
+            "email": "test@email.com",
+            "dispatch_commission": 0.12
+        },
+        "driver": {
+            "id": "djm9Vn1vt8ULSLPpnOFB",
+            "driver_earnings": 0.88
+        },
+        "loads": [
+            {
+                "id": "7alN9FafRII68XZ13BjH"
+            },
+            {
+                "id": "gY3JQU8Dc8GSQD3903xP"
+            }
+        ],
+        "details": {
+            "pay_period": {
+                "from": 1638392600,
+                "to": 1639343000
+            },
+            "pay_date": 1639081797
+        },
+        "fuel": [
+            {
+                "station": "Racetrack",
+                "city": "Lawrenceville",
+                "state": "Georgia",
+                "timestamp": 1639081797,
+                "amount": 58633,
+                "discount": 2990,
+                "net_balance": 55739
+            },
+            {
+                "station": "Racetrack",
+                "city": "Lawrenceville",
+                "state": "Georgia",
+                "timestamp": 1639081797,
+                "amount": 58633,
+                "discount": 2990,
+                "net_balance": 55739
+            }
+        ],
+        "reimbursements": [
+            {
+                "reimbursement_type": "lumper",
+                "description": "Sample Text",
+                "timestamp": 1639081797,
+                "amount": 32000,
+                "net_balance": 3200
+            }
+        ],
+        "deductions": [
+            {
+                "charge_type": "Truck",
+                "amount": 68300,
+                "description": "---",
+                "frequency": "weekly",
+                "ytd": 320000,
+                "net_balance": 68300
+            }
+        ],
+        "year_to_date": [
+            {
+                "description": "Sample Text",
+                "timestamp": 1639081797,
+                "previous_year": 2230000,
+                "this_week": 870000,
+                "ytd": 3100000
+            }
+        ],
+        "paystub": {
+            "earnings": 870000,
+            "expenses": 348400,
+            "reimbursements": 32000,
+            "net_balance": 4591.40
+        }
+    },
+    {
+        "id": "statement-2",
+        "company": {
+            "id": "XMThd77dS0oiwhKhAO7t",
+            "phone": "",
+            "email": ""
+        },
+        "driver": {
+            "id": "djm9Vn1vt8ULSLPpnOFB",
+            "commission": 0.12,
+            "address": ""
+        },
+        "details": {
+            "pay_period": {
+                "from": 1638744311,
+                "to": 1638744311
+            },
+            "pay_date": 1638744311
+        }
+    },
+    {
+        "id": "statement-3",
+        "company": {
+            "id": "XMThd77dS0oiwhKhAO7t",
+            "phone": "",
+            "email": ""
+        },
+        "driver": {
+            "id": "djm9Vn1vt8ULSLPpnOFB",
+            "commission": 0.12,
+            "address": ""
+        },
+        "details": {
+            "pay_period": {
+                "from": 1638139511,
+                "to": 1638139511
+            },
+            "pay_date": 1638139511
+        }
+    }
+]

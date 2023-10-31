@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/css/multi-select-tag.css">
+        <link rel="icon" href="./assets/images/favIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <link rel="stylesheet" href="./css/dealers.css">
+    <link rel="stylesheet" href="./css/datepacker.css">
+    <link rel="stylesheet" href="./css/edit.css">
+    <link rel="stylesheet" href="./css/view.css">
+    <link rel="stylesheet" href="./css/sales.css">
+    <link rel="stylesheet" href="./css/banks.css">
+    <link rel="stylesheet" href="./css/adjust.css">
+    <title>::Key To Solution::</title>
+</head>
+
+<body>
+     <!-- loader  -->
+     <div class="loader_bg">
+        <div class="loader"><img src="./assets/images/loading.gif" alt="#" /></div>
+     </div>
+     <!-- end loader -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="" class="logo">
+                        <span class="title">
+                            <img src="./assets/images/logo_s.png" alt="">
+                        </span>
+                    </a>
+                    <span class="border_line"></span>
+                </li>
+                <li class="left">
+                    <a href="Dashboard.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/overview.png" alt="">
+                        </span>
+                        <span class="title">Overview</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Dealers.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/dealers.png" alt="">
+                        </span>
+                        <span class="title">Dealers</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Customer.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/customers.png" alt="">
+                        </span>
+                        <span class="title">Customers</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Factories.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/factories.png" alt="">
+                        </span>
+                        <span class="title">Factories</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Sale.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/sales.png" alt="">
+                        </span>
+                        <span class="title">Sales</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Purchase.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/purchase.png" alt="">
+                        </span>
+                        <span class="title">Purchase</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Vehicle.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/vehicle.png" alt="">
+                        </span>
+                        <span class="title">Vehicles</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="officeExpenses.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/office exp.png" alt="">
+                        </span>
+                        <span class="title">Office Exp.</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left active">
+                    <a href="Banks.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/bank.png" alt="">
+                        </span>
+                        <span class="title">Banks</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Stock.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/stock.png" alt="">
+                        </span>
+                        <span class="title">Stocks</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Employees.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/employees.png" alt="">
+                        </span>
+                        <span class="title">Employees</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+
+                <li class="left">
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/view report.png" alt="">
+                        </span>
+                        <span class="title">View All Reports</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/setting.png" alt="">
+                        </span>
+                        <span class="title">Settings</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main_box" id="banks">
+        <div class="top_nav">
+            <nav>
+                <h1>Banks</h1>
+                
+                <div class="bell">
+                    <img src="./assets/images/bell.png" alt="">
+                </div>
+                <div class="profile-details">
+                    <img src="./assets/images/profile.jpg" alt="" onclick="menuToggle();">
+                    <i class='bx bx-chevron-down' onclick="menuToggle();"></i>
+                    <div class="menu">
+                        <ul>
+                            <li>
+                                <i class="fas fa-user"></i>
+                                <a href="#">My Profile</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-gear"></i>
+                                <a href="#">Settings</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-message"></i>
+                                <a href="#">Feedback</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-sign-out"></i>
+                                <a href="#">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="bankbox-table">
+            <div class="pending-order">
+                <h1>Withdrawal Cash/Cheques</h1>
+                <a class="hyperlink" href="Banks.html">
+                    <div class="add_btn"><i class='far fa-arrow-alt-circle-left'></i>
+                        Back to Banks
+                    </div>
+                </a>
+            
+            </div>
+            <!-- this is for Bank Edit form -->
+            <div id="popup2" class="overlay">
+                <div class="popup2">
+                    <h2>Edit Form</h2>
+                    <a class="close" href="#"><i class="fas fa-xmark"></i></a>
+
+                </div>
+            </div>
+            <!-- this is for view form -->
+            <div id="popup3" class="overlay">
+                <div class="popup3">
+                    <h2>Bank Form</h2>
+                    <a class="close" href="#"><i class="fas fa-xmark"></i></a>
+
+                </div>
+            </div>
+            <div class="order-table">
+                <p>Document tracking in formation</p>
+                <section class="field">
+                    <table id="customers">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>From</th>
+                                <th>To</th>
+                                <th>Amount</th>
+                                <th>Description</th>
+                                <th id="status">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="tr">
+                                <td>12-02-2023</td>
+                                <td>Meezan Bank</td>
+                                <td>Muhammad Sami Khan</td>
+                                <td>4500000</td>
+                                <td>Through Cheque No.125000001552</td>
+                                <td class="pending">
+                                    <a href="#popup2">
+                                        <button class="edit">Edit</button>
+                                    </a>
+                                    <a href="">
+                                        <button class="remove">Remove</button>
+                                    </a>
+                                    <a href="#popup3">
+                                        <button class="view">view</button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="tr">
+                                <td>12-02-2023</td>
+                                <td>Bank AL Habib</td>
+                                <td>Muhammad Sami Khan</td>
+                                <td>4500000</td>
+                                <td>Online Transfer</td>
+                                <td class="pending">
+                                    <a href="#popup2">
+                                        <button class="edit">Edit</button>
+                                    </a>
+                                    <a href="">
+                                        <button class="remove">Remove</button>
+                                    </a>
+                                    <a href="#popup3">
+                                        <button class="view">view</button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="tr">
+                                <td>12-02-2023</td>
+                                <td>Abdullah</td>
+                                <td>Muhammad Sami Khan</td>
+                                <td>4500000</td>
+                                <td>Cash</td>
+                                <td class="pending">
+                                    <a href="#popup2">
+                                        <button class="edit">Edit</button>
+                                    </a>
+                                    <a href="">
+                                        <button class="remove">Remove</button>
+                                    </a>
+                                    <a href="#popup3">
+                                        <button class="view">view</button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="tr">
+                                <td>12-02-2023</td>
+                                <td>Abdullah</td>
+                                <td>Muhammad Sami Khan</td>
+                                <td>4500000</td>
+                                <td>Online Transfer</td>
+                                <td class="pending">
+                                    <a href="#popup2">
+                                        <button class="edit">Edit</button>
+                                    </a>
+                                    <a href="">
+                                        <button class="remove">Remove</button>
+                                    </a>
+                                    <a href="#popup3">
+                                        <button class="view">view</button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="tr">
+                                <td>12-02-2023</td>
+                                <td>Abdullah</td>
+                                <td>Muhammad Sami Khan</td>
+                                <td>4500000</td>
+                                <td>Online Transfer</td>
+                                <td class="pending">
+                                    <a href="#popup2">
+                                        <button class="edit">Edit</button>
+                                    </a>
+                                    <a href="">
+                                        <button class="remove">Remove</button>
+                                    </a>
+                                    <a href="#popup3">
+                                        <button class="view">view</button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="tr">
+                                <td>12-02-2023</td>
+                                <td>Abdullah</td>
+                                <td>Muhammad Sami Khan</td>
+                                <td>4500000</td>
+                                <td>Online Transfer</td>
+                                <td class="pending">
+                                    <a href="#popup2">
+                                        <button class="edit">Edit</button>
+                                    </a>
+                                    <a href="">
+                                        <button class="remove">Remove</button>
+                                    </a>
+                                    <a href="#popup3">
+                                        <button class="view">view</button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="tr">
+                                <td>12-02-2023</td>
+                                <td>Abdullah</td>
+                                <td>Muhammad Sami Khan</td>
+                                <td>4500000</td>
+                                <td>Online Transfer</td>
+                                <td class="pending">
+                                    <a href="#popup2">
+                                        <button class="edit">Edit</button>
+                                    </a>
+                                    <a href="">
+                                        <button class="remove">Remove</button>
+                                    </a>
+                                    <a href="#popup3">
+                                        <button class="view">view</button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="tr">
+                                <td>12-02-2023</td>
+                                <td>Abdullah</td>
+                                <td>Muhammad Sami Khan</td>
+                                <td>4500000</td>
+                                <td>Online Transfer</td>
+                                <td class="pending">
+                                    <a href="#popup2">
+                                        <button class="edit">Edit</button>
+                                    </a>
+                                    <a href="">
+                                        <button class="remove">Remove</button>
+                                    </a>
+                                    <a href="#popup3">
+                                        <button class="view">view</button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="tr">
+                                <td>12-02-2023</td>
+                                <td>Abdullah</td>
+                                <td>Muhammad Sami Khan</td>
+                                <td>4500000</td>
+                                <td>Online Transfer</td>
+                                <td class="pending">
+                                    <a href="#popup2">
+                                        <button class="edit">Edit</button>
+                                    </a>
+                                    <a href="">
+                                        <button class="remove">Remove</button>
+                                    </a>
+                                    <a href="#popup3">
+                                        <button class="view">view</button>
+                                    </a>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <div class="bottom-field">
+                        <ul class="pagination">
+                            <li class="prev">
+                                <a href="##" id="prev">
+                                    <i class="fa-sharp fa-solid fa-arrow-left"></i>
+                                </a>
+                            </li>
+                            <!-- page number here -->
+                            <li class="next">
+                                <a href="##" id="next">
+                                    <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="items-controller">
+                        <h5>Show</h5>
+                        <select name="" id="itemperpage">
+                            <option value="07">07</option>
+                            <option value="14">14</option>
+                            <option value="16" selected>16</option>
+                        </select>
+                    </div>
+                </section>
+                <section class="header">
+
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/js/multi-select-tag.js"></script>
+    <script src="./js/dscript.js"></script>
+    <script src="./js/datepacker.js"></script>
+    <script src="./js/sales.js"></script>
+    <script src="./js/banks.js"></script>
+    <script>
+        let list = document.querySelectorAll('.left');
+        for (let i = 0; i < list.length; i++) {
+            list[i].onclick = function () {
+                let j = 0;
+                while (j < list.length) {
+                    list[j++].className = 'left';
+                }
+                list[i].className = 'left active'
+            }
+        }
+    </script>
+    <script>
+        const periodeValue = document.querySelector('.periode-value');
+        const picker = new DateRangePicker('#daterange', {
+            start: "16 Mar",
+            end: "14 Mar",
+            onchange: (start, end) => {
+                periodeValue.innerHTML = `
+                    Debut: ${start} 
+                    <br/>
+                    Fin: ${end}
+                `;
+            },
+            args: []
+        });
+    </script>
+</body>
+
+</html>

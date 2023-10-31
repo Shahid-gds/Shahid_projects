@@ -1,0 +1,6 @@
+flask
+openai
+pymongo
+gunicorn
+numpy
+joblib

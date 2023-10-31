@@ -1,0 +1,67 @@
+[
+  {
+    "_id":"ewrfdsfdsfAW4AYV345YAN3UIB4N6",
+     "dropoffs":[
+        {
+           "location_name":"",
+           "dropoff_time":"",
+           "notes":"",
+           "address":{
+              "state":"",
+              "line2":"",
+              "city":"",
+              "country":"",
+              "line1":""
+           },
+           "coordinates":{
+              "latitude": 33.97124605154722,
+              "longitude": -83.9969393261763
+           }
+        }
+     ],
+     "payment": 0,
+     "confirmation_number":"",
+     "bol":"",
+     "load_pdf":"",
+     "created": 0,
+     "total_weight":0,
+     "stock_information":[
+        {
+           "weight": 0,
+           "item":"",
+           "count": 0
+        }
+     ],
+     "assignment":{
+        "assigned": true,
+        "driver":"87L23TpnypxX0iJzWfoI"
+     },
+     "id":"B9UNVYptdZYMHCL7Op1g",
+     "dispatcher_id":"karl",
+     "broker":{
+        "agent":"",
+        "name":"",
+        "id":""
+     },
+     "time_completed":0,
+     "pickups":[
+        {
+           "pickup_time": 0,
+           "notes":"",
+           "location_name":"",
+           "coordinates":{
+              "longitude": -83.9969393261763,
+              "latitude": 33.97124605154722
+           },
+           "address":{
+              "zip":"",
+              "line1":"",
+              "state":"",
+              "line2":"",
+              "country":"",
+              "city":""
+           }
+        }
+     ]
+  }
+]

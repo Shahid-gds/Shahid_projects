@@ -1,0 +1,16 @@
+[
+  {
+    "fname": "Meho",
+    "lname": "Tiro",
+    "current_location":{
+      "latitude": 33.98060366423094,
+      "longitude": -83.98513240646606,
+      "timestamp": 1649696665
+    },
+    "truck":{
+      "make": "Tesla",
+      "model":"Semi",
+      "year": 2023
+    }
+  }
+]

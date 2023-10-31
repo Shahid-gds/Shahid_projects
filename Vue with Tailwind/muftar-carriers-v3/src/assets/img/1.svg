@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1783" data-name="Rectangle 1783" width="36" height="36" transform="translate(4790 1240)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_25" data-name="Mask Group 25" transform="translate(-4790 -1240)" clip-path="url(#clip-path)">
+    <g id="people" transform="translate(4794 1244)">
+      <path id="Vector" d="M0,0H27.391V27.391H0Z" fill="none" opacity="0"/>
+      <path id="Vector-2" data-name="Vector" d="M3.412,6.585a.843.843,0,0,0-.24,0,3.3,3.3,0,1,1,.24,0Z" transform="translate(16.594 2.283)" fill="#fff"/>
+      <path id="Vector-3" data-name="Vector" d="M4.782,5.356a7.087,7.087,0,0,1-4.725.959A7.453,7.453,0,0,0,.73,3.244,7.013,7.013,0,0,0,0,.071a7.118,7.118,0,0,1,4.771.947A2.418,2.418,0,0,1,4.782,5.356Z" transform="translate(18.945 11.421)" fill="#fff"/>
+      <path id="Vector-4" data-name="Vector" d="M3.173,6.585a.843.843,0,0,1,.24,0,3.293,3.293,0,1,0-.24,0Z" transform="translate(4.177 2.283)" fill="#fff"/>
+      <path id="Vector-5" data-name="Vector" d="M5.2,3.244a7.432,7.432,0,0,0,.673,3.1,7.052,7.052,0,0,1-4.519-.981,2.424,2.424,0,0,1,0-4.348A7.009,7.009,0,0,1,5.918.049,7.256,7.256,0,0,0,5.2,3.244Z" transform="translate(2.277 11.421)" fill="#fff"/>
+      <path id="Vector-6" data-name="Vector" d="M4.074,7.841a1.289,1.289,0,0,0-.3,0,3.937,3.937,0,1,1,.3,0Z" transform="translate(9.758 10.271)" fill="#fff"/>
+      <path id="Vector-7" data-name="Vector" d="M1.292.984a2.343,2.343,0,0,0,0,4.188,6.974,6.974,0,0,0,7.144,0,2.343,2.343,0,0,0,0-4.188A6.974,6.974,0,0,0,1.292.984Z" transform="translate(8.831 19.49)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,95 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,900;1,200;1,300;1,800;1,900&family=Roboto:wght@100;400&display=swap');
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url(../Avenir\ LT\ Std\ 35\ Light.otf) format("opentype");
+  src: url(../Avenir\ LT\ Std\ 65\ Medium.otf) format("opentype");
+  src: url(../Avenir\ LT\ Std\ 85\ Heavy.otf) format("opentype");
+  src: url(../Avenir\ LT\ Std\ 95\ Black.otf) format("opentype");
+  src: url(../AvenirLTStd-Book.otf) format("opentype");
+  src: url(../AvenirLTStd-Roman.otf) format("opentype");
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Avenir LT Std';
+  font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  background-image: url(../images/BG.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+@media (max-width:1600px) {
+html,
+  body{
+  overflow: hidden;
+  overflow-y: scroll;
+}
+body {
+  position: relative
+}
+}
+@media (max-width:1366px) {
+html,
+  body{
+  overflow: hidden;
+  overflow-y: scroll;
+}
+body {
+  position: relative
+}
+}
+@media (max-width:990px) {
+html,
+  body{
+  overflow-x: hidden;
+  height: 100vh;
+  overflow-y: scroll;
+}
+body {
+  position: relative
+}
+}
+@media (max-width:414px) {
+html,
+  body{
+  overflow-x: hidden;
+  height: 125vh;
+  overflow-y: scroll;
+}
+body {
+  position: relative
+}
+}
+@media (max-width:412px) {
+html,
+  body{
+  overflow-x: hidden;
+  height: 125vh;
+}
+body {
+  position: relative
+}
+}
+@media (max-width:390px) {
+  html,
+  body{
+  overflow-x: hidden;
+  height: 130vh;
+}
+}
+

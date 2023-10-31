@@ -1,0 +1,55 @@
+#banks .profile-details {
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    height: 50px;
+    min-width: 190px;
+    padding: 0 15px 0 2px;
+    margin-left: 132rem;
+}
+
+.bank-name{
+    margin-left: 132px;
+}
+.bank-name input[type="text"]{
+    width: 55%;
+    height: 60px;
+    padding: 25px;
+    margin-left: 80px;
+ }
+.branch-name{
+    margin-left: 132px;
+}
+.branch-name input[type="text"]{
+    width: 55%;
+    height: 60px;
+    padding: 25px;
+    margin-left: 64px;
+}
+.account-holder{
+    margin-left: 132px;
+}
+.account-holder input[type="text"]{
+    width: 55%;
+    height: 60px;
+    padding: 25px;
+    margin-left: 52px;
+}
+.account-number{
+    margin-left: 132px;
+}
+.account-number input[type="text"]{
+    width: 55%;
+    height: 60px;
+    padding: 25px;
+    margin-left: 40px;
+}
+.opening-balance{
+    margin-left: 132px;
+}
+.opening-balance input[type="text"]{
+    width: 55%;
+    height: 60px;
+    padding: 25px;
+    margin-left: 38px;
+}

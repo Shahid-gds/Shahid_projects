@@ -1,0 +1,36 @@
+{
+  "id": "XMThd77dS0oiwhKhAO7t",
+  "mc_number": "73294sfds0423",
+  "dispatch_number": "5050",
+  "email":"digital@muftar.com",
+  "name": "Muftar",
+  "phone": "(123) 456-7890",
+  "photo":"https://images.unsplash.com/photo-1485575301924-6891ef935dcd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80",
+  "address": {
+    "line1": "123 Main Street",
+    "line2": "",
+    "city": "Lawrenceville",
+    "state": "GA",
+    "zip": "30045"
+  },
+  "billing":{
+    "current_plan": "Enterprise"
+  },
+  "account_manager": {
+    "email": "meho@gmail.com",
+    "fname": "Meho",
+    "lname": "Tiro",
+    "phone": "(123) 456-7890",
+    "role": "accounting"
+  },
+  "references":{
+    "drivers": [{"uid":"XYZ", "data_type": "reference"}],
+    "shippers": [{"uid":"XYZ", "data_type": "reference"}],
+    "brokers": [{"uid":"XYZ", "data_type": "reference"}],
+    "reports": [{"uid":"XYZ", "data_type": "reference"}],
+    "payments": [{"uid":"XYZ", "data_type": "reference"}],
+    "notifications": [{"uid":"XYZ", "data_type": "reference"}],
+    "finance": [{"uid":"XYZ", "data_type": "reference"}],
+    "dispatchers": [{"uid":"XYZ", "data_type": "reference"}]
+  }
+}

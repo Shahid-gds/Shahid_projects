@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/css/multi-select-tag.css">
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <link rel="stylesheet" href="./css/dealers.css">
+    <link rel="stylesheet" href="./css/datepacker.css">
+    <link rel="stylesheet" href="./css/edit.css">
+    <link rel="stylesheet" href="./css/view.css">
+    <link rel="stylesheet" href="./css/sales.css">
+    <title>::Key To Solution::</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="" class="logo">
+                        <span class="title"><img src="./assets/images/logo_s.png" alt=""></span>
+                    </a>
+                    <span class="border_line"></span>
+                </li>
+                <li class="list">
+                    <a href="Dashboard.html">
+                        <span class="material-symbols-outlined"><img src="./assets/images/overview.png" alt=""></span>
+                        <span class="title">Overview</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="Dealers.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/dealers.png" alt="">
+                        </span>
+                        <span class="title">Dealers</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="Customer.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/customers.png" alt="">
+                        </span>
+                        <span class="title">Customers</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="Factories.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/factories.png" alt="">
+                        </span>
+                        <span class="title">Factories</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="list active">
+                    <a href="Sale.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/sales.png" alt="">
+                        </span>
+                        <span class="title">Sales</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="Purchase.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/purchase.png" alt="">
+                        </span>
+                        <span class="title">Purchase</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="Vehicle.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/vehicle.png" alt="">
+                        </span>
+                        <span class="title">Vehicles</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/office exp.png" alt="">
+                        </span>
+                        <span class="title">Office Exp.</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="Banks.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/bank.png" alt="">
+                        </span>
+                        <span class="title">Banks</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/cash in hand.png" alt="">
+                        </span>
+                        <span class="title">Cash In Hand</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/stock.png" alt="">
+                        </span>
+                        <span class="title">Stocks</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/employees.png" alt="">
+                        </span>
+                        <span class="title">Employees</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/view report.png" alt="">
+                        </span>
+                        <span class="title">View All Reports</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/setting.png" alt="">
+                        </span>
+                        <span class="title">Settings</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main_box" id="overview">
+        <div class="top_nav">
+            <nav>
+                  <h1>Sales</h1>
+                <div class="setting">
+                    <i class="fas fa-gear"></i>
+                </div>
+                <div class="bell">
+                    <i class="fa-regular fa-bell"></i>
+                </div>
+                <div class="profile-details">
+                  <img src="./assets/images/profile.jpg" alt="">
+                  <i class='bx bx-chevron-down' ></i>
+                </div>
+              </nav>
+        </div>
+        <div class="dbox-table">
+            <div class="pending-order">
+                      <h1>All Sales</h1>
+                    <div class="search-box">
+                        <input type="checkbox" id="searcharrow" style="display: none;">
+                        <label for="searcharrow" class="search-input" onclick="searchMe()">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search'></i>
+                    </label>
+                    <div class="checkboxes">
+                    <div class="search-content" id="search-content" style="display: none;">
+                       <div class="checkbox1"><label class="id" for="id" >ID</label><input type="radio" id="id" name="id"></div>
+                        <div class="checkbox2"><label class="name" for="name">Name</label><input type="radio" id="name" name="id"></div>
+                    </div>
+                    </div>
+                    </div>
+                   
+                    <div class="calender">
+                            <div class="row">
+                                <label for="daterange"></label>
+                                <img src="./assets/images/calendar.png" alt="">
+                                <input type="text" name="daterange" id="daterange" class="daterange">
+                                <div class="arrowdown">
+                                    <label for="daterange"><img src="./assets/images/arrowdow.png"></label></div>
+                            </div>
+                    </div>
+                    <a href="#salepopup">
+                    <div class="add_btn"><i class="fas fa-user-plus"></i>
+                        Add Sale
+                    </div>
+                    </a>
+            </div>
+            <!-- this is for Add dealers form -->
+            <div id="salepopup" class="overlay">
+                <div class="sales_form">
+                    <h2>Sales Form</h2>
+                    <a class="close" href="#"><i class="fas fa-xmark"></i></a>
+                    <div class="sale-content">
+                        <form action="">
+                            <div class="current_date">
+                            <label class="date">Date</label>
+                            <div id="date-today">
+                            </div>
+                            </div>
+                            <label class="party">Party</label>
+                            <div class="party-box">
+                                <input type="checkbox" id="partyarrow"  style="display: none;" onclick="partyClick()">
+                                <label for="partyarrow" class="party-input">
+                                <input type="text" placeholder="Dealers/Customers">
+                            </label>
+                            <div class="sroller">
+                            <div class="partycheckboxes">
+                            <div class="party-content" id="party-content" style="display: none;">
+                               <div class="partyheckbox1"><label class="parties" for="parties" >Muhammad Sami</label><input type="radio" id="parties" name="parties"></div>
+                               <div class="partyheckbox2"><label class="parties2" for="parties2" >Sami Khan</label><input type="radio" id="parties2" name="parties"></div>
+                               <div class="partyheckbox3"><label class="parties3" for="parties3" >Suleman</label><input type="radio" id="parties3" name="parties"></div>
+                               <div class="partyheckbox4"><label class="parties3" for="parties4" >Ayaz</label><input type="radio" id="parties4" name="parties"></div>
+                               <div class="partyheckbox5"><label class="parties3" for="parties5" >Syed Ayaz</label><input type="radio" id="parties5" name="parties"></div>
+                               <div class="partyheckbox6"><label class="parties3" for="parties6" >Sami</label><input type="radio" id="parties6" name="parties"></div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            <label class="sale-item">item</label>
+                            <div class="items-box">
+                                <input type="checkbox" id="itemarrow" style="display: none;"  onclick="itemClick()">
+                                <label for="itemarrow" class="item-input">
+                                <input type="text">
+                            </label>
+                            <div class="itemboxes">
+                            <div class="item-content" id="item-content" style="display: none;">
+                               <div class="itemcheckbox1"><label class="item-block" for="itemblock" >Block</label><input type="radio" id="itemblock" name="id"></div>
+                                <div class="itemcheckbox2"><label class="item-challa" for="itemchalla">Challa</label><input type="radio" id="itemchalla" name="id"></div>
+                            </div>
+                            </div>
+                            </div>
+                        <div class="combine-div">
+                            <label class="sale-price">Price</label>
+                            <div class="sale-div">Rs.46</div>
+                            <label class="sale-qty">Quantity</label>
+                            <div class="qty-div"><input type="text"></div>
+                        </div>
+                        <div class="combine2-div">
+                            <label class="amount-div">Amount</label>
+                            <div class="sale-amount">Rs.46,000/-</div>
+                            <label class="sale-discount">Discount %</label>
+                            <div class="discount-div"><input type="text"></div>
+                        </div>
+                        <label class="t-amount">Total Amount</label>
+                        <div class="tamount-div">Rs.45,000/-</div>
+                        <div class="paymentcheckbox">
+                        <div class="tpayment">Type of Payment</div>
+                        <input type="checkbox" id="cash" name="payment[1][]">
+                        <label id="cash" for="cash">Cash</label>
+                        <input type="checkbox" id="credit" name="payment[1][]">
+                        <label id="credit" for="credit">Credit</label>
+                        </div>
+                            <div class="btn">
+                                <a href="#" class="btn1">Cancel</a>
+                                <a href="#" class="btn2">Save</a>
+                            </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- this is for Edit dealers form -->
+            <div id="popup2" class="overlay">
+                <div class="popup2">
+                    <h2>Edit Form</h2>
+                    <a class="close" href="#"><i class="fas fa-xmark"></i></a>
+                    <div class="edit-content">
+                        <form action="">
+                            <label>Dealer's Name*</label>
+                              <input type="text" placeholder="keytosolution" required> <br>
+                               <label>Mobile Number*</label>
+                              <input type="tel" placeholder="0000-0000" required> <br>
+                              <label>Email</label>
+                              <input type="email" placeholder="keytosolution@gmail.com" required> <br>
+                              <label>Opening Balance</label>
+                              <input class="city" type="text" placeholder="20,0000" required> <br>
+                              <label class="text_comments">Office Address</label>
+                              <textarea class="comments" name="text" placeholder="Address"></textarea><br>
+                              <label class="item">Item</label>
+                              <div class="tab">
+                                <input type="checkbox" id="chck2" style="display: none;" onclick="editMe()" />
+                                <label class="tab-label" for="chck2">
+                                    <div class="texes2">
+                                    <label for="itemAe" class="ice" id="ice">Ice Block</label>
+                                    <label for="itemBe" class="challa" id="challa">Challa</label>
+                                    </div>
+                                </label>
+                                <div class="tab-content" id="check2" style="display: none;">
+                                    <label  class="content-check"><input type="checkbox">Block</label>
+                                    <label  class="content-check"><input type="checkbox">Challa</label>
+                                </div>
+                              </div>
+                              <label class="rate">Rate</label>
+                              <div class="rate_itemA">
+                                <input type="text"  placeholder="Block">
+                                 <input type="text" placeholder="Challa">
+                              </div> <br>
+                              <!-- <div class="item-text">
+                                <label class="text1" id="text1" style="display: none;">Item A</label>
+                                <label class="text2" id="text2" style="display: none;">Item B</label>
+                            </div> -->
+                              <br>
+                            <div class="btn">
+                                <a href="#" class="btn1">Cancel</a>
+                                <a href="#" class="btn2">Save Changes</a>
+                            </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+            <!-- this is for view form -->
+            <div id="popup3" class="overlay">
+                <div class="popup3">
+                    <h2>Dealer Form</h2>
+                    <a class="close" href="#"><i class="fas fa-xmark"></i></a>
+                    <div class="view-content">
+                        <form action="">
+                            <label class="dealer-id">ID
+                                <h4>101</h4>
+                            </label>
+                            <label class="dealer-name">Name
+                                <h4>Sami</h4>
+                            </label>
+                            <label class="opening-balance">Opening Balance
+                                <h4>200,0000</h4>
+                            </label> <br>
+                            <label class="mobile-no">Mobile Number
+                                <h4>00000-0000</h4>
+                            </label>
+                            <label class="email">Email
+                                <h4>sami@gmail.com</h4>
+                            </label> <br>
+                            <label class="address"> <p>Office Address</p> 
+                                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ipsa alias porro eum amet dicta!</h4>
+                            </label><br>
+    
+                            <label class="view_cates"> <p>Item</p> 
+                                <label class="view-ice">Ice Block</label>
+                                <label class="view-challa">Challa</label>
+                            </label> <br>
+                            <label class="view_rates"> <p>Rate</p> 
+                                <label class="rate-ice">Rs.550</label>
+                                <label class="rate-challa">Rs.660</label>
+                            </label>
+    
+                            <div class="btn">
+                                <a href="#" class="btn1">Cancel</a>
+                                <a href="#popup2" class="btn2">Edit</a>
+                            </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+            <div class="order-table">
+                <p>Document tracking in formation</p>
+                <section class="field">
+                    <table id="customers">
+                        <thead>
+                            <tr>
+                              <th>Date</th>
+                              <th>Item</th>
+                              <th>Dealer/Customer</th>
+                              <th>Price</th>
+                              <th id="qty">Quantity</th>
+                              <th id="amount">Amount</th>
+                              <th id="status">Status</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="tr">
+                                <td class="dated">22/12/2022</td>
+                                <td class="table-item">Block</td>
+                                <td class="dealer_cus">Muhammad Sami Khan</td>
+                                <td class="price">46</td>
+                                <td class="qty">46</td>
+                                <td class="amount">200,000</td>
+                                <td class="pending">
+                                    <a href="#popup2">
+                                        <button class="edit">Edit</button>
+                                    </a>
+                                    <a href="">
+                                <button class="remove">Remove</button>
+                                    </a>
+                                    <a href="#popup3">
+                                <button class="view">view</button>
+                                    </a>
+                            </td>
+                            </tr>
+                            <tr class="tr">
+                                <td class="dated">22/12/2022</td>
+                                <td class="table-item">Block</td>
+                                <td class="dealer_cus">Muhammad Sami</td>
+                                <td class="price">46</td>
+                                <td class="qty">46</td>
+                                <td class="amount">200,000</td>
+                                <td class="pending">
+                                    <a href="#popup2">
+                                        <button class="edit">Edit</button>
+                                    </a>
+                                    <a href="">
+                                <button class="remove">Remove</button>
+                                    </a>
+                                    <a href="#popup3">
+                                <button class="view">view</button>
+                                    </a>
+                            </td>
+                            </tr>
+                            <tr class="tr">
+                                <td class="dated">22/12/2022</td>
+                                <td class="table-item">Block</td>
+                                <td class="dealer_cus">Muhammad Sami</td>
+                                <td class="price">46</td>
+                                <td class="qty">46</td>
+                                <td class="amount">200,000</td>
+                                <td class="pending">
+                                    <a href="#popup2">
+                                        <button class="edit">Edit</button>
+                                    </a>
+                                    <a href="">
+                                <button class="remove">Remove</button>
+                                    </a>
+                                    <a href="#popup3">
+                                <button class="view">view</button>
+                                    </a>
+                            </td>
+                            <tr class="tr">
+                                <td class="dated">22/12/2022</td>
+                                <td class="table-item">Block</td>
+                                <td class="dealer_cus">Muhammad Sami</td>
+                                <td class="price">46</td>
+                                <td class="qty">46</td>
+                                <td class="amount">200,000</td>
+                                <td class="pending">
+                                    <a href="#popup2">
+                                        <button class="edit">Edit</button>
+                                    </a>
+                                    <a href="">
+                                <button class="remove">Remove</button>
+                                    </a>
+                                    <a href="#popup3">
+                                <button class="view">view</button>
+                                    </a>
+                            </td>
+                            <tr class="tr">
+                                <td class="dated">22/12/2022</td>
+                                <td class="table-item">Block</td>
+                                <td class="dealer_cus">Muhammad Sami</td>
+                                <td class="price">46</td>
+                                <td class="qty">46</td>
+                                <td class="amount">200,000</td>
+                                <td class="pending">
+                                    <a href="#popup2">
+                                        <button class="edit">Edit</button>
+                                    </a>
+                                    <a href="">
+                                <button class="remove">Remove</button>
+                                    </a>
+                                    <a href="#popup3">
+                                <button class="view">view</button>
+                                    </a>
+                            </td>
+                            <tr class="tr">
+                                <td class="dated">22/12/2022</td>
+                                <td class="table-item">Block</td>
+                                <td class="dealer_cus">Muhammad Sami</td>
+                                <td class="price">46</td>
+                                <td class="qty">46</td>
+                                <td class="amount">200,000</td>
+                                <td class="pending">
+                                    <a href="#popup2">
+                                        <button class="edit">Edit</button>
+                                    </a>
+                                    <a href="">
+                                <button class="remove">Remove</button>
+                                    </a>
+                                    <a href="#popup3">
+                                <button class="view">view</button>
+                                    </a>
+                            </td>
+                            <tr class="tr">
+                                <td class="dated">22/12/2022</td>
+                                <td class="table-item">Block</td>
+                                <td class="dealer_cus">Muhammad Sami</td>
+                                <td class="price">46</td>
+                                <td class="qty">46</td>
+                                <td class="amount">200,000</td>
+                                <td class="pending">
+                                    <a href="#popup2">
+                                        <button class="edit">Edit</button>
+                                    </a>
+                                    <a href="">
+                                <button class="remove">Remove</button>
+                                    </a>
+                                    <a href="#popup3">
+                                <button class="view">view</button>
+                                    </a>
+                            </td>
+                            <tr class="tr">
+                                <td class="dated">22/12/2022</td>
+                                <td class="table-item">Block</td>
+                                <td class="dealer_cus">Muhammad Sami</td>
+                                <td class="price">46</td>
+                                <td class="qty">46</td>
+                                <td class="amount">200,000</td>
+                                <td class="pending">
+                                    <a href="#popup2">
+                                        <button class="edit">Edit</button>
+                                    </a>
+                                    <a href="">
+                                <button class="remove">Remove</button>
+                                    </a>
+                                    <a href="#popup3">
+                                <button class="view">view</button>
+                                    </a>
+                            </td>
+                            </tr>
+                            <tr class="tr">
+                                <td class="dated">22/12/2022</td>
+                                <td class="table-item">Block</td>
+                                <td class="dealer_cus">Muhammad Sami</td>
+                                <td class="price">46</td>
+                                <td class="qty">46</td>
+                                <td class="amount">200,000</td>
+                                <td class="pending">
+                                    <a href="#popup2">
+                                        <button class="edit">Edit</button>
+                                    </a>
+                                    <a href="">
+                                <button class="remove">Remove</button>
+                                    </a>
+                                    <a href="#popup3">
+                                <button class="view">view</button>
+                                    </a>
+                            </td>
+                            </tr>                        
+                               
+                          </tbody>
+                    </table>
+                    <div class="bottom-field">
+                        <ul class="pagination">
+                          <li class="prev"><a href="##" id="prev"><i class="fa-sharp fa-solid fa-arrow-left"></i></a></li>
+                            <!-- page number here -->
+                          <li class="next"><a href="##" id="next"><i class="fa-sharp fa-solid fa-arrow-right"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="items-controller">
+                        <h5>Show</h5>
+                        <select name="" id="itemperpage">
+                            <option value="07">07</option>
+                            <option value="14">14</option>
+                            <option value="16" selected>16</option>
+                        </select>
+                    </div>
+                </section>
+                <section class="header">
+                
+                </section>
+            </div>
+            </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/js/multi-select-tag.js"></script>
+    <script src="./js/dscript.js"></script>
+    <script src="./js/datepacker.js"></script>
+    <script src="./js/sales.js"></script>
+    <script>
+        let list = document.querySelectorAll('.list');
+        for (let i=0; i<list.length; i++){
+            list[i].onclick = function(){
+            let j = 0;
+            while(j < list.length){
+                list[j++].className = 'list';
+            }
+            list[i].className = 'list active'
+        }
+    }
+    </script>
+       <script>
+        const periodeValue = document.querySelector('.periode-value');
+        const picker = new DateRangePicker('#daterange', {
+            start: "16 Mar",
+            end: "14 Mar",
+            onchange: (start, end) => {
+                periodeValue.innerHTML = `
+                    Debut: ${start} 
+                    <br/>
+                    Fin: ${end}
+                `;
+            },
+            args: []
+        });
+    </script>
+</body>
+</html>

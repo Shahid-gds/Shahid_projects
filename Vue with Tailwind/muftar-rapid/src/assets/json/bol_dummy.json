@@ -1,0 +1,159 @@
+{
+      "vendor": {
+        "name": "Camerican International Inc.",
+        "address": {
+            "location_name": "",
+            "line1": "45 Eisenhower Dr",
+            "line2": "",
+            "city": "Atlant Paramus",
+            "state": "NJ",
+            "country": "USA",
+            "zip": "07652-1416",
+        },
+    },
+    "order": {
+        "carrier": {"name": "CMDU TRION OTSBNE1MA"},
+        "location": "L737 Garden City Tier 50-53 61-62",
+        "port": "Savannah, GA",
+        "awb_no": "CMDUHKU0117475",
+        "arrive_date": "05/11/2022",
+        "issued_by": "Everest Transportation Systems",
+        "entry_no": "9F9-0001553-6",
+        "customer_ref": "T3162",
+        "stock_info": [
+            {
+                "pkgs": 0,
+                "description": "Frozen Tilapia",
+                "weight": 0,
+            }
+        ],
+        "shipto": {
+            "location_name": "Americold Atlanta Westgate",
+            "address": {
+                "line1": "1740 Westgate Parkway SW",
+                "line2": "",
+                "city": "Atlanta",
+                "state": "GA",
+                "country": "USA",
+                "zip": "30336",
+            },
+        },
+    },
+    "ship_to": {
+        "name": "",
+        "address": {
+            "line1": "",
+            "line2": "",
+            "city": "",
+            "state": "",
+            "zip": "",
+            "country": "",
+        },
+    },
+    "reciever": {"id": "", "name": "",},
+
+    
+    "carrier": {
+        "id": "",
+        "name": "Muftar Transport LLC",
+        "address": {
+            "line1": "123 Main Street",
+            "line2": "",
+            "city": "Anytown",
+            "state": "ST",
+            "country": "USA",
+            "zip": "30005",
+        },
+        "mc_number": "1234567890",
+        "phone": "(770) 555-5555",
+        "fax": "(770) 555-5555",
+        "email": "test@email
+    attn: 'Amel',
+    reference: '',
+    trailer: '',
+    driver: {
+      name: 'Josh Buggin',
+      phone: '(678) 555-0000',
+      truck: 'Tesla Semi 18'
+    }
+  },
+  broker:{
+    id:'',
+    logo: 'https://firebasestorage.googleapis.com/v0/b/muftar-digital-trucking.appspot.com/o/brokers%2Fbest-deal.png?alt=media&token=61c33af8-f9a3-4d89-a961-7d5937c2d4b8',
+    name: 'Best Deal Brokers',
+    address:{
+      line1: '123 Main Street',
+      line2: '',
+      city:'Anytown',
+      state: 'ST',
+      country: 'USA',
+      zip:'30005'
+    },
+    mc_number: '1234567890',
+    phone: '(770) 555-5555',
+    fax: '(770) 555-5555',
+    email: 'test@email.com'
+  },
+  load:{
+    id:'',
+    confirmation_number: 'mobile-test1',
+    created: 1656351917,
+    stats:{
+      pieces: 1888,
+      miles: 260,
+      spaces: 40,
+      pallets: 0,
+      act_wgt: 42000,
+      as_wgt: 42000,
+      load_type: 'Drayage',
+      trailer: '40\' IMDL Container',
+      table:[
+        {pay_code: 'Load', pay_type: 'Flat', rate: 2300, total: 2300},
+        {pay_code: 'Overweight', pay_type: '', rate: 100, total: 100},
+        {pay_code: 'Detention', pay_type: '', rate: 150, total: 150},
+      ],
+    },
+    locations:[
+      {
+        stop_idx: 1,
+        stop_kind: 'pickup',
+        start_date: '6/12/2022',
+        end_date: '6/12/2022',
+        name: 'Best Deal Brokers',
+        address:{
+          line1: '123 Main Street',
+          line2: '',
+          city:'Anytown',
+          state: 'ST',
+          country: 'USA',
+          zip:'30005'
+        },
+        ref_contact: '',
+        appt_ref: 'no',
+        notes: 'Reefer\nContainer\nSeal\nSSL-CMD\nETA 6/15'
+      },
+      {
+        stop_idx: 2,
+        stop_kind: 'dropoff',
+        start_date: '6/12/2022',
+        end_date: '6/12/2022',
+        name: 'Best Deal Brokers',
+        address:{
+          line1: '123 Main Street',
+          line2: '',
+          city:'Anytown',
+          state: 'ST',
+          country: 'USA',
+          zip:'30005'
+        },
+        ref_contact: '',
+        appt_ref: 'no',
+        notes: 'Reefer\nContainer\nSeal\nSSL-CMD\nETA 6/15'
+      }
+    ],
+    commodity:[
+      {item: 'Frozen Foods', description: 'Frozen Tilapia', pieces: 1863, spaces: 40, weight: 42000}
+    ]
+  }
+}
+}

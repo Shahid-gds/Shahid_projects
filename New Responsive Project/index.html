@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>University Project</title>
+</head>
+<body>
+    <!---This is header section-->
+    <section class="header">
+        <nav>
+            <a href="index.html">
+                <img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick=hideMenu()></i>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick=showMenu()></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Veniam explicabo modi, eos nemo enim doloribus placeat animi <br> 
+                facilis laudantium autem ipsum sapiente doloremque? Tempore 
+                necessitatibus corporis sapiente at quisquam a!</p>
+                <a href="#" class="hero-btn">Visit Us to Know More..</a>
+        </div>
+    </section>
+    <!---Course Section Strat-->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
+            Nostrum cupiditate at odio enim voluptates error fuga quibusdam <br>
+            itaque dignissimos illo nihil fugiat laudantium adipisci cumque dolorum ipsa, <br>
+            quod inventore minima.</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
+                         Quod id vero, doloremque ullam mollitia ad esse corporis laboriosam <br>
+                         dignissimos quia atque reprehenderit eum deleniti, unde recusandae aliquam <br>
+                         aspernatur dicta porro!</p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
+                         Quod id vero, doloremque ullam mollitia ad esse corporis laboriosam <br>
+                         dignissimos quia atque reprehenderit eum deleniti, unde recusandae aliquam <br>
+                         aspernatur dicta porro!</p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
+                         Quod id vero, doloremque ullam mollitia ad esse corporis laboriosam <br>
+                         dignissimos quia atque reprehenderit eum deleniti, unde recusandae aliquam <br>
+                         aspernatur dicta porro!</p>
+                </div>
+            </div>
+    </section>
+    <!--Campuses-->
+        <section class="campus">
+            <h1>Our Global Campuses</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/london.png">
+                    <div class="layer">
+                        <h3>LONDON</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/newyork.png">
+                    <div class="layer">
+                        <h3>NEW YARK</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/washington.png">
+                    <div class="layer">
+                        <h3>WASHINTON</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

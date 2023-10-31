@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/css/multi-select-tag.css">
+    <link rel="icon" href="./assets/images/favIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <link rel="stylesheet" href="./css/dealers.css">
+    <link rel="stylesheet" href="./css/datepacker.css">
+    <link rel="stylesheet" href="./css/edit.css">
+    <link rel="stylesheet" href="./css/view.css">
+    <link rel="stylesheet" href="./css/customer.css">
+    <link rel="stylesheet" href="./css/factories.css">
+    <title>::Key To Solution::</title>
+</head>
+
+<body>
+     <!-- loader  -->
+ <div class="loader_bg">
+    <div class="loader"><img src="./assets/images/loading.gif" alt="#" /></div>
+ </div>
+ <!-- end loader -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="" class="logo">
+                        <span class="title"><img src="./assets/images/logo_s.png" alt=""></span>
+                    </a>
+                    <span class="border_line"></span>
+                </li>
+                <li class="left">
+                    <a href="Dashboard.html">
+                        <span class="material-symbols-outlined"><img src="./assets/images/overview.png" alt=""></span>
+                        <span class="title">Overview</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Dealers.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/dealers.png" alt="">
+                        </span>
+                        <span class="title">Dealers</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Customer.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/customers.png" alt="">
+                        </span>
+                        <span class="title">Customers</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left active">
+                    <a href="Factories.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/factories.png" alt="">
+                        </span>
+                        <span class="title">Factories</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Sale.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/sales.png" alt="">
+                        </span>
+                        <span class="title">Sales</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Purchase.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/purchase.png" alt="">
+                        </span>
+                        <span class="title">Purchase</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Vehicle.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/vehicle.png" alt="">
+                        </span>
+                        <span class="title">Vehicles</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="officeExpenses.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/office exp.png" alt="">
+                        </span>
+                        <span class="title">Office Exp.</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Banks.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/bank.png" alt="">
+                        </span>
+                        <span class="title">Banks</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+              
+                <li class="left">
+                    <a href="Stock.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/stock.png" alt="">
+                        </span>
+                        <span class="title">Stocks</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="Employees.html">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/employees.png" alt="">
+                        </span>
+                        <span class="title">Employees</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+
+                <li class="left">
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/view report.png" alt="">
+                        </span>
+                        <span class="title">View All Reports</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+                <li class="left">
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            <img src="./assets/images/setting.png" alt="">
+                        </span>
+                        <span class="title">Settings</span>
+                        <span class="fixed_hover"></span>
+                        <span class="obj"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main_box" id="factories">
+        <div class="top_nav">
+            <nav>
+                <h1>Factories</h1>
+                
+                <div class="bell">
+                    <img src="./assets/images/bell.png" alt="">
+                </div>
+                <div class="profile-details">
+                    <img src="./assets/images/profile.jpg" alt="" onclick="menuToggle();">
+                    <i class='bx bx-chevron-down' onclick="menuToggle();"></i>
+                    <div class="menu">
+                        <ul>
+                            <li>
+                                <i class="fas fa-user"></i>
+                                <a href="#">My Profile</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-gear"></i>
+                                <a href="#">Settings</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-message"></i>
+                                <a href="#">Feedback</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-sign-out"></i>
+                                <a href="#">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="fbox-table">
+            <div class="pending-order">
+                <h1>All Factories</h1>
+                <div class="search-box">
+                    <input type="checkbox" id="searcharrow" style="display: none;">
+                    <label for="searcharrow" class="search-input" onclick="searchMe()">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search'></i>
+                    </label>
+                    <div class="checkboxes">
+                        <div class="search-content" id="search-content" style="display: none;">
+                            <div class="checkbox1"><label class="id" for="id">ID</label><input type="radio" id="id"
+                                    name="id"></div>
+                            <div class="checkbox2"><label class="name" for="name">Name</label><input type="radio"
+                                    id="name" name="id"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="calender">
+                    <div class="row">
+                        <label for="daterange"></label>
+                        <img src="./assets/images/calendar.png" alt="">
+                        <input type="text" name="daterange" id="daterange" class="daterange">
+                        <div class="arrowdown">
+                            <label for="daterange"><img src="./assets/images/arrowdow.png"></label>
+                        </div>
+                    </div>
+                </div>
+                <a href="#popup1">
+                    <div class="add_btn"><i class="fas fa-user-plus"></i>
+                        Add Factory
+                    </div>
+                </a>
+            </div>
+            <!-- this is for Add dealers form -->
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <h2>Factory Form</h2>
+                    <a class="close" href="#"><i class="fas fa-xmark"></i></a>
+                    <div class="content">
+                        <form action="">
+                            <div class="factory-name">
+                                <label>Factory Name</label>
+                                <input type="text" placeholder="Key To Solution">
+                            </div>
+                            <label class="factories-lbl">Select Dealer</label>
+                            <div class="factory-box">
+                                <div class="factory-select">
+                                    <div class="factory-container">
+                                        <div class="factory-options">
+                                            <input type="radio" class="radio" id="firstdealer" name="factories">
+                                            <label for="firstdealer">Muhammad Suleman</label>
+                                        </div>
+                                        <div class="factory-options">
+                                            <input type="radio" class="radio" id="seconddealer" name="factories">
+                                            <label for="seconddealer">Niaz Khan</label>
+                                        </div>
+                                        <div class="factory-options">
+                                            <input type="radio" class="radio" id="thirddealer" name="factories">
+                                            <label for="thirddealer">Zoyan Khan</label>
+                                        </div>
+                                        <div class="factory-options">
+                                            <input type="radio" class="radio" id="fourthdealer" name="factories">
+                                            <label for="fourthdealer">Tariq</label>
+                                        </div>
+                                        <div class="factory-options">
+                                            <input type="radio" class="radio" id="fifthdealer" name="factories">
+                                            <label for="fifthdealer">Muhammad Zahoor</label>
+                                        </div>
+                                        <div class="factory-options">
+                                            <input type="radio" class="radio" id="sisthdealer" name="factories">
+                                            <label for="sisthdealer">Muhammad Suleman</label>
+                                        </div>
+                                        <div class="factory-options">
+                                            <input type="radio" class="radio" id="seventhdealer" name="factories">
+                                            <label for="seventhdealer">Muhammad Suleman</label>
+                                        </div>
+                                    </div>
+                                    <div class="dealer-selected">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="opening-balance">
+                                <label id="opening-balance">Opening Balance</label>
+                                <input type="text" placeholder="Rs.20,00000">
+                            </div>
+                            <div class="phone-number">
+                                <label id="phone-number">Phone Number</label>
+                                <input type="text" placeholder="0345-3090075">
+                            </div>
+                            <div class="location">
+                                <label id="f-location">Location</label>
+                                <input type="text" placeholder="Korangi Karachi">
+                            </div>
+                            <label class="f-item">Item</label>
+                            <div class="tab">
+                                <div class="factory-content">
+                                    <input type="checkbox" id="chck1" onclick="checkMe()" />
+                                    <label class="tab-label" for="chck1">
+                                        <div class="texes">
+                                            <label for="itemA" class="text1" id="text1" style="display: none;"
+                                                onclick="myFunction">Ice Block</label>
+                                            <label for="itemB" class="text2" id="text2"
+                                                style="display: none;">Challa</label>
+                                        </div>
+                                    </label>
+                                    <div class="tab-content" id="check" style="display: none;">
+                                        <label class="content-check"><input type="checkbox" id="itemA"
+                                                onclick="IA()">Block</label>
+                                        <label class="content-check"><input type="checkbox" id="itemB"
+                                                onclick="IB()">Challa</label>
+                                    </div>
+                                </div>
+                                <label class="f-rate">Rate</label>
+                                <div class="frate_itemA">
+                                    <input type="text" id="itema" placeholder="Block" style="display: none;">
+                                    <input type="text" id="itemb" placeholder="Challa" style="display: none;">
+                                </div>
+                            </div>
+                            <br>
+                            <!-- <div class="item-text">
+                                <label class="text1" id="text1" style="display: none;">Item A</label>
+                                <label class="text2" id="text2" style="display: none;">Item B</label>
+                            </div> -->
+                            <br>
+                            <div class="btn">
+                                <a href="#" class="btn1">Cancel</a>
+                                <a href="#" class="btn2">Save</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- this is for factories Edit form -->
+            <div id="popup2" class="overlay">
+                <div class="popup2">
+                    <h2>Edit Form</h2>
+                    <a class="close" href="#"><i class="fas fa-xmark"></i></a>
+
+                </div>
+            </div>
+            <!-- this is for view form -->
+            <div id="popup3" class="overlay">
+                <div class="popup3">
+                    <h2>Factories Form</h2>
+                    <a class="close" href="#"><i class="fas fa-xmark"></i></a>
+
+                </div>
+            </div>
+            <div class="order-table">
+                <p>Document tracking in formation</p>
+                <section class="field">
+                    <table id="customers">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Phone Number</th>
+                                <th>Location</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="tr">
+                                <td>01</td>
+                                <td>Sami</td>
+                                <td class="contact">0345-3090075</td>
+                                <td class="location">Hub Chowki</td>
+                                <td class="pending">
+                                    <a href="#popup2">
+                                        <button class="edit">Edit</button>
+                                    </a>
+                                    <a href="">
+                                        <button class="remove">Remove</button>
+                                    </a>
+                                    <a href="#popup3">
+                                        <button class="view">view</button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="tr">
+                                <td>02</td>
+                                <td>Niaz</td>
+                                <td>0345-3090075</td>
+                                <td>Korangi</td>
+                                <td class="pending">
+                                    <button class="edit">Edit</button>
+                                    <button class="remove">Remove</button>
+                                    <button class="view">view</button>
+                                </td>
+                            </tr>
+                            <tr class="tr">
+                                <td>03</td>
+                                <td>Shahid</td>
+                                <td>0345-3090075</td>
+                                <td>Orangi</td>
+                                <td class="pending">
+                                    <button class="edit">Edit</button>
+                                    <button class="remove">Remove</button>
+                                    <button class="view">view</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>04</td>
+                                <td>Rehman</td>
+                                <td>0345-3090075</td>
+                                <td>Balochistan</td>
+                                <td class="pending">
+                                    <button class="edit">Edit</button>
+                                    <button class="remove">Remove</button>
+                                    <button class="view">view</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>05</td>
+                                <td>Zahid</td>
+                                <td>0345-3090075</td>
+                                <td>Garden East</td>
+                                <td class="pending">
+                                    <button class="edit">Edit</button>
+                                    <button class="remove">Remove</button>
+                                    <button class="view">view</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>06</td>
+                                <td>Ayaz</td>
+                                <td>0345-3090075</td>
+                                <td>Gulshan-e-Iqbal</td>
+                                <td class="pending">
+                                    <button class="edit">Edit</button>
+                                    <button class="remove">Remove</button>
+                                    <button class="view">view</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>07</td>
+                                <td>Sheikh</td>
+                                <td>0345-3090075</td>
+                                <td>Gulshan-e-Maymar</td>
+                                <td class="pending">
+                                    <button class="edit">Edit</button>
+                                    <button class="remove">Remove</button>
+                                    <button class="view">view</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>08</td>
+                                <td>Abid</td>
+                                <td>0345-3090075</td>
+                                <td>Hub Chowki</td>
+                                <td class="pending">
+                                    <button class="edit">Edit</button>
+                                    <button class="remove">Remove</button>
+                                    <button class="view">view</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>09</td>
+                                <td>XYZABC</td>
+                                <td>0345-3090075</td>
+                                <td>Gulshan-e-Maymar</td>
+                                <td class="pending">
+                                    <button class="edit">Edit</button>
+                                    <button class="remove">Remove</button>
+                                    <button class="view">view</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>XYZABC</td>
+                                <td>0345-3090075</td>
+                                <td>Gulshan-e-Maymar</td>
+                                <td class="pending">
+                                    <button class="edit">Edit</button>
+                                    <button class="remove">Remove</button>
+                                    <button class="view">view</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>XYZABC</td>
+                                <td>00000000</td>
+                                <td>Gulshan-e-Maymar</td>
+                                <td class="pending">
+                                    <button class="edit">Edit</button>
+                                    <button class="remove">Remove</button>
+                                    <button class="view">view</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>XYZABC</td>
+                                <td>0000000</td>
+                                <td>Gulshan-e-Maymar</td>
+                                <td class="pending">
+                                    <button class="edit">Edit</button>
+                                    <button class="remove">Remove</button>
+                                    <button class="view">view</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>XYZABC</td>
+                                <td>00000000</td>
+                                <td>Gulshan-e-Maymar</td>
+                                <td class="pending">
+                                    <button class="edit">Edit</button>
+                                    <button class="remove">Remove</button>
+                                    <button class="view">view</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>XYZABC</td>
+                                <td>0000000000</td>
+                                <td>Gulshan-e-Maymar</td>
+                                <td class="pending">
+                                    <button class="edit">Edit</button>
+                                    <button class="remove">Remove</button>
+                                    <button class="view">view</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td>XYZABC</td>
+                                <td>000000000</td>
+                                <td>Gulshan-e-Maymar</td>
+                                <td class="pending">
+                                    <button class="edit">Edit</button>
+                                    <button class="remove">Remove</button>
+                                    <button class="view">view</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>XYZABC</td>
+                                <td>00000000</td>
+                                <td>Gulshan-e-Maymar</td>
+                                <td class="pending">
+                                    <a href="#popup1">
+                                        <button class="edit">Edit</button>
+                                    </a>
+                                    <button class="remove">Remove</button>
+                                    <button class="view">view</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="bottom-field">
+                        <ul class="pagination">
+                            <li class="prev">
+                                <a href="##" id="prev">
+                                    <i class="fa-sharp fa-solid fa-arrow-left"></i>
+                                </a>
+                            </li>
+                            <!-- page number here -->
+                            <li class="next">
+                                <a href="##" id="next">
+                                    <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="items-controller">
+                        <h5>Show</h5>
+                        <select name="" id="itemperpage">
+                            <option value="07">07</option>
+                            <option value="14">14</option>
+                            <option value="16" selected>16</option>
+                        </select>
+                    </div>
+                </section>
+                <section class="header">
+
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/js/multi-select-tag.js"></script>
+    <script src="./js/dscript.js"></script>
+    <script src="./js/datepacker.js"></script>
+    <script src="./js/factory.js"></script>
+    <script>
+        let list = document.querySelectorAll('.left');
+        for (let i = 0; i < list.length; i++) {
+            list[i].onclick = function () {
+                let j = 0;
+                while (j < list.length) {
+                    list[j++].className = 'left';
+                }
+                list[i].className = 'left active'
+            }
+        }
+    </script>
+     <script>
+        function menuToggle() {
+            const menuToggle = document.querySelector(".menu");
+            menuToggle.classList.toggle("active");
+        }
+    </script>
+    <script>
+        const periodeValue = document.querySelector('.periode-value');
+        const picker = new DateRangePicker('#daterange', {
+            start: "16 Mar",
+            end: "14 Mar",
+            onchange: (start, end) => {
+                periodeValue.innerHTML = `
+                    Debut: ${start} 
+                    <br/>
+                    Fin: ${end}
+                `;
+            },
+            args: []
+        });
+    </script>
+    <script>
+        const selected = document.querySelector(".dealer-selected");
+        const optionsContainer = document.querySelector(".factory-container");
+
+        const optionsList = document.querySelectorAll(".factory-options");
+
+        selected.addEventListener("click", () => {
+            optionsContainer.classList.toggle("active");
+        });
+
+        optionsList.forEach(o => {
+            o.addEventListener("click", () => {
+                selected.innerHTML = o.querySelector("label").innerHTML;
+                optionsContainer.classList.remove("active");
+            });
+        });
+    </script>
+</body>
+
+</html>

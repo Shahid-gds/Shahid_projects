@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51.572" height="40.112"
+    viewBox="0 0 51.572 40.112">
+    <defs>
+        <linearGradient id="linear-gradient" y1="0.76" x2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#0ee4fe" />
+            <stop offset="1" stop-color="#49b1fe" />
+        </linearGradient>
+    </defs>
+    <path id="Icon_awesome-credit-card" data-name="Icon awesome-credit-card"
+        d="M0,38.064a4.3,4.3,0,0,0,4.3,4.3H47.274a4.3,4.3,0,0,0,4.3-4.3V22.306H0Zm17.191-6.088A1.078,1.078,0,0,1,18.265,30.9H30.442a1.078,1.078,0,0,1,1.074,1.074v3.581a1.078,1.078,0,0,1-1.074,1.074H18.265a1.078,1.078,0,0,1-1.074-1.074Zm-11.46,0A1.078,1.078,0,0,1,6.8,30.9h6.447a1.078,1.078,0,0,1,1.074,1.074v3.581a1.078,1.078,0,0,1-1.074,1.074H6.8A1.078,1.078,0,0,1,5.73,35.557ZM51.572,6.548v4.3H0v-4.3a4.3,4.3,0,0,1,4.3-4.3H47.274A4.3,4.3,0,0,1,51.572,6.548Z"
+        transform="translate(0 -2.25)" fill="url(#linear-gradient)" />
+</svg>

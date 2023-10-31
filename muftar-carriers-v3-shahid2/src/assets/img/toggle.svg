@@ -1,0 +1,24 @@
+<svg id="Group_1408" data-name="Group 1408" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="38" viewBox="0 0 77 38">
+  <defs>
+    <filter id="Rectangle_1745" x="42" y="5" width="32" height="32" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-color="#1d1e29" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1407" data-name="Group 1407">
+    <rect id="Rectangle_1744" data-name="Rectangle 1744" width="77" height="38" rx="19" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_1745)">
+    <rect id="Rectangle_1745-2" data-name="Rectangle 1745" width="26" height="26" rx="13" transform="translate(45 6)" fill="#c2c2c2"/>
+  </g>
+  <g id="vuesax_bold_sun" data-name="vuesax/bold/sun" transform="translate(-109.337 -51.337)">
+    <g id="sun" transform="translate(116 56)">
+      <path id="Vector" d="M15.621,7.811A7.811,7.811,0,1,1,7.811,0,7.811,7.811,0,0,1,15.621,7.811Z" transform="translate(6.526 6.526)" fill="#1d1e29"/>
+      <path id="Vector-2" data-name="Vector" d="M13.029,26.011a1.148,1.148,0,0,1-1.184-1.137v-.095a1.184,1.184,0,1,1,2.369,0A1.229,1.229,0,0,1,13.029,26.011Zm8.457-3.34a1.213,1.213,0,0,1-.841-.343l-.154-.154a1.181,1.181,0,0,1,1.67-1.67l.154.154a1.18,1.18,0,0,1,0,1.67A1.165,1.165,0,0,1,21.486,22.671Zm-16.914,0a1.213,1.213,0,0,1-.841-.343,1.18,1.18,0,0,1,0-1.67l.154-.154a1.181,1.181,0,1,1,1.67,1.67l-.154.154A1.186,1.186,0,0,1,4.572,22.671Zm20.3-8.457h-.095a1.184,1.184,0,1,1,0-2.369,1.229,1.229,0,0,1,1.232,1.184A1.148,1.148,0,0,1,24.874,14.214Zm-23.595,0H1.184a1.184,1.184,0,1,1,0-2.369,1.23,1.23,0,0,1,1.232,1.184A1.148,1.148,0,0,1,1.279,14.214Zm20.053-8.3a1.213,1.213,0,0,1-.841-.343,1.18,1.18,0,0,1,0-1.67l.154-.154a1.181,1.181,0,0,1,1.67,1.67l-.154.154A1.165,1.165,0,0,1,21.332,5.911Zm-16.606,0a1.213,1.213,0,0,1-.841-.343L3.731,5.4A1.181,1.181,0,0,1,5.4,3.731l.154.154a1.18,1.18,0,0,1,0,1.67A1.149,1.149,0,0,1,4.726,5.911Zm8.3-3.494a1.148,1.148,0,0,1-1.184-1.137V1.184a1.184,1.184,0,1,1,2.369,0A1.23,1.23,0,0,1,13.029,2.416Z" transform="translate(1.305 1.305)" fill="#1d1e29"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H28.674V28.674H0Z" transform="translate(28.674 28.674) rotate(180)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

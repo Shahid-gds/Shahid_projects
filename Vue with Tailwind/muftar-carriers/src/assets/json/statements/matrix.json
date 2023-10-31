@@ -1,0 +1,36 @@
+{
+    "tables":[  
+        [
+            [{"v": "Loads"}],
+            [{"v": "Delivery Date"}, {"v": "Broker"}, {"v": "Load #"}, {"v": "Description"}, {"v": "Gross Balance"}, {"v": "Commission"},  {"v": "Net Balance"}],
+            [{"v": "adfs"}, {"v": "dsfsdf"}, {"v": "werwea3"}, {"v": "43qt"}, {"v": "4q3fe"}, {"v": ""}, {"v": ""}]
+        ],
+        [   
+            [{"v": "Fuel"}],
+            [{"v": "Station"}, {"v": "Address"}, {"v": "Date"}, {"v": "Amount"}, {"v": "Discount"}, {"v": "Net Balance"}],
+            [{"v": "adfs"}, {"v": "dsfsdf"}, {"v": "werwea3"}, {"v": "43qt"}, {"v": "4q3fe"}, {"v": ""}]
+        ],
+        [   
+            [{"v": "Rembursements"}],
+            [{"v": "Rembursement Type"}, {"v": "Description"}, {"v": "Date"}, {"v": "Amount"}, {"v": "Net Balance"}],
+            [{"v": "adfs"}, {"v": "dsfsdf"}, {"v": "werwea3"}, {"v": "43qt"}, {"v": "4q3fe"}]
+        ],
+        [   
+            [{"v": "Charges"}],
+            [{"v": "Charge Type"}, {"v": "Charge"}, {"v": "Description"}, {"v": "Frequency"}, {"v": "YTD"}, {"v": "Net Balance"}],
+            [{"v": "adfs"}, {"v": "dsfsdf"}, {"v": "werwea3"}, {"v": "43qt"}, {"v": "4q3fe"}, {"v": ""}]
+        ],
+        [   
+            [{"v": "YTD"}],
+            [{"v": "Description"}, {"v": "Date"}, {"v": "Previous"}, {"v": "This Week"}, {"v": "YTD"}],
+            [{"v": "adfs"}, {"v": "dsfsdf"}, {"v": "werwea3"}, {"v": "43qt"}, {"v": "4q3fe"}]
+        ],
+        [   
+            [{"v": "PayStubs"}],
+            [{"v": "Driver"}, {"v": "Driver %"}, {"v": "Earnings"}, {"v": "Expenses"}, {"v": "Rembursements"}, {"v": "Net Earnings"}],
+            [{"v": "adfs"}, {"v": "dsfsdf"}, {"v": "werwea3"}, {"v": "43qt"}, {"v": "4q3fe"}, {"v": ""}]
+        ]
+]
+
+      
+}

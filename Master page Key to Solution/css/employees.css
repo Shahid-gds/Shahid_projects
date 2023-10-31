@@ -1,0 +1,562 @@
+#employees .profile-details {
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  height: 50px;
+  min-width: 190px;
+  padding: 0 15px 0 2px;
+  margin-left: 126rem;
+}
+#profile {
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  height: 50px;
+  min-width: 190px;
+  padding: 0 15px 0 2px;
+  margin-left: 124rem;
+}
+
+.dbox-table .search-box .bx-search {
+  left: 1157px;
+}
+
+.search-box {
+  margin-left: 28px;
+}
+
+
+.dbox-table .pending-order a {
+  position: absolute;
+  align-items: center;
+  border-radius: 10px;
+  width: 170px;
+  padding: 13px 23px;
+  margin-left: 1320px;
+  background: var(--blue);
+  text-decoration: none;
+  color: var(--white);
+  margin-top: 11px;
+}
+
+#daterange {
+  width: 260px;
+  height: 45px;
+  margin-left: 16px;
+  padding: 9px 45px;
+  font-size: 14px;
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid #003566;
+  margin-top: 45px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+/*overlay*/
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  right: 0;
+  backdrop-filter: blur(15px);
+  transition: opacity 1000ms;
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 6px 12px -2px, rgba(255, 255, 255, 0.3) 0px 3px 7px -3px;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.employees_form {
+  margin: 70px auto;
+  padding: 20px;
+  background: var(--white);
+  border-radius: 20px;
+  width: 696px;
+  height: 700px;
+  position: relative;
+  transition: all 5s ease-in-out;
+  top: 45%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(12, 0, 0, 0.25) 0px 6px 12px -2px, rgba(15, 1, 1, 0.3) 0px 3px 7px -3px;
+}
+
+.employees_form h2 {
+  margin-top: 0px;
+  color: #000000;
+  font-family: Tahoma, Arial, sans-serif;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.employees_form .close {
+  position: absolute;
+  top: 15px;
+  right: 22px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  background: #003566;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
+.employees_form .close i {
+  position: absolute;
+  font-size: 20px;
+  margin: 5px 9px;
+  border: none;
+  color: var(--white);
+}
+
+.employees_form .close:hover {
+  color: var(--blue);
+}
+
+.employees_form .content {
+  max-height: 30%;
+  text-align: center;
+  margin: 24px auto;
+  color: #000000;
+}
+
+.employee-name {
+  margin-left: 134px;
+}
+
+.employee-name input[type="text"] {
+  padding: 20px;
+  margin-left: 68px;
+}
+
+.joining-date {
+  margin-left: 134px;
+  margin-top: 40px;
+}
+
+/*this is for date */
+.date-select {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-left: 572px;
+  position: absolute;
+  z-index: 2;
+}
+
+.date-select .date-option {
+  padding: 8px 18px;
+  cursor: pointer;
+}
+
+.date-container {
+  background: white;
+  margin-left: -322px;
+  margin-top: 6px;
+  box-shadow: rgb(12 0 0 / 25%) 0px 6px 12px -2px, rgb(15 1 1 / 30%) 0px 3px 7px -3px;
+  max-height: 0;
+  width: 10%;
+  height: 20%;
+  opacity: 0;
+  transition: all 0.4s;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 1;
+  order: 1;
+}
+
+.date-selected {
+  background: #EBEBEB;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  color: #0d141f;
+  position: absolute;
+  margin-left: -375px;
+  margin-top: -42px;
+  width: 18%;
+  order: 0;
+}
+
+.date-selected::after {
+  content: "\276F";
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 0px;
+  right: 10px;
+  top: 11px;
+  transition: all 0.35s;
+  position: absolute;
+  margin-top: -2px;
+  cursor: pointer;
+  left: 98px;
+  transform: rotate(90deg);
+}
+
+.date-select .date-container.active {
+  max-height: 300px;
+  opacity: 1;
+  overflow-y: scroll;
+}
+
+.date-container.active+.date-selected::after {
+  transform: rotate(4deg);
+  transition: all 0.35s;
+  top: 15px;
+}
+
+/* .date-option input:checked[type="radio"]::after{
+      content: '';
+      position: absolute;
+      border: 2px solid var(--blue);
+      box-sizing: border-box;
+      transition: 0.5s;
+      margin: 2px 148px;
+      border-left: none;
+      border-top: none;
+      border-color: #003566;
+      transform: rotate(45deg) translate(5px, -10px);
+      width: 8px;
+      height: 15px;
+    } */
+.date-select .date-container::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* .date-select .date-container::-webkit-scrollbar-thumb {
+      background: #003566;
+      border-radius: 10px;
+    } */
+
+.date-select .date-selected {
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+.date-select .date-option:hover {
+  background: var(--secondary);
+  border-radius: 10px;
+}
+
+.date-select label {
+  cursor: pointer;
+  margin-left: 3px;
+}
+
+.date-option input[type="radio"] {
+  appearance: none;
+  border: none;
+  outline: none;
+}
+
+/*this is for month */
+.join-month {
+  margin-left: 138px;
+  margin-top: 0px;
+}
+.month-select {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-left: 572px;
+  position: absolute;
+  z-index: 2;
+}
+
+.month-select .month-option {
+  padding: 8px 18px;
+  cursor: pointer;
+}
+
+.month-container {
+  background: white;
+  margin-left: -362px;
+  margin-top: 6px;
+  box-shadow: rgb(12 0 0 / 25%) 0px 6px 12px -2px, rgb(15 1 1 / 30%) 0px 3px 7px -3px;
+  max-height: 0;
+  width: 18%;
+  height: 20%;
+  opacity: 0;
+  transition: all 0.4s;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 1;
+  order: 1;
+}
+
+.month-selected {
+  background: #EBEBEB;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  color: #0d141f;
+  position: absolute;
+  margin-left: -375px;
+  margin-top: -42px;
+  width: 20%;
+  order: 0;
+}
+
+.month-selected::after {
+  content: "\276F";
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 0px;
+  right: 10px;
+  top: 11px;
+  transition: all 0.35s;
+  position: absolute;
+  margin-top: -2px;
+  cursor: pointer;
+  left: 112px;
+  transform: rotate(90deg);
+}
+
+.month-select .month-container.active {
+  max-height: 300px;
+  opacity: 1;
+  overflow-y: scroll;
+}
+
+.month-container.active + .month-selected::after {
+  transform: rotate(4deg);
+  transition: all 0.35s;
+  top: 15px;
+}
+
+/* .date-option input:checked[type="radio"]::after{
+      content: '';
+      position: absolute;
+      border: 2px solid var(--blue);
+      box-sizing: border-box;
+      transition: 0.5s;
+      margin: 2px 148px;
+      border-left: none;
+      border-top: none;
+      border-color: #003566;
+      transform: rotate(45deg) translate(5px, -10px);
+      width: 8px;
+      height: 15px;
+    } */
+.month-select .month-container::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* .date-select .date-container::-webkit-scrollbar-thumb {
+      background: #003566;
+      border-radius: 10px;
+    } */
+
+.month-select .month-selected {
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+.month-select .month-option:hover {
+  background: var(--secondary);
+  border-radius: 10px;
+}
+
+.month-select label {
+  cursor: pointer;
+  margin-left: 3px;
+}
+
+.month-option input[type="radio"] {
+  appearance: none;
+  border: none;
+  outline: none;
+}
+/*this is for Year */
+.join-year {
+  margin-left: 290px;
+  margin-top: 0px;
+}
+.year-select {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-left: 572px;
+  position: absolute;
+  z-index: 2;
+}
+
+.year-select .year-option {
+  padding: 8px 18px;
+  cursor: pointer;
+}
+
+.year-container {
+  background: white;
+  margin-left: -362px;
+  margin-top: 6px;
+  box-shadow: rgb(12 0 0 / 25%) 0px 6px 12px -2px, rgb(15 1 1 / 30%) 0px 3px 7px -3px;
+  max-height: 0;
+  width: 18%;
+  height: 20%;
+  opacity: 0;
+  transition: all 0.4s;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 1;
+  order: 1;
+}
+
+.year-selected {
+  background: #EBEBEB;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  color: #0d141f;
+  position: absolute;
+  margin-left: -375px;
+  margin-top: -42px;
+  width: 20%;
+  order: 0;
+}
+
+.year-selected::after {
+  content: "\276F";
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 0px;
+  right: 10px;
+  top: 11px;
+  transition: all 0.35s;
+  position: absolute;
+  margin-top: -2px;
+  cursor: pointer;
+  left: 112px;
+  transform: rotate(90deg);
+}
+
+.year-select .year-container.active {
+  max-height: 300px;
+  opacity: 1;
+  overflow-y: scroll;
+}
+
+.year-container.active + .year-selected::after {
+  transform: rotate(4deg);
+  transition: all 0.35s;
+  top: 15px;
+}
+
+/* .date-option input:checked[type="radio"]::after{
+      content: '';
+      position: absolute;
+      border: 2px solid var(--blue);
+      box-sizing: border-box;
+      transition: 0.5s;
+      margin: 2px 148px;
+      border-left: none;
+      border-top: none;
+      border-color: #003566;
+      transform: rotate(45deg) translate(5px, -10px);
+      width: 8px;
+      height: 15px;
+    } */
+.year-select .year-container::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* .date-select .date-container::-webkit-scrollbar-thumb {
+      background: #003566;
+      border-radius: 10px;
+    } */
+
+.year-select .year-selected {
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+.year-select .year-option:hover {
+  background: var(--secondary);
+  border-radius: 10px;
+}
+
+.year-select label {
+  cursor: pointer;
+  margin-left: 3px;
+}
+
+.year-option input[type="radio"] {
+  appearance: none;
+  border: none;
+  outline: none;
+}
+.emp-phone{
+  margin-left: 135px;
+}
+.emp-phone input[type="text"]{
+  margin-left: 79px;
+  padding: 20px;
+}
+.emp-designation{
+  margin-left: 135px;
+}
+.emp-designation input[type="text"]{
+  margin-left: 100px;
+  padding: 20px;
+}
+
+
+
+.emp-salary{
+  display: flex;
+  align-items: center;
+  margin-left: 275px;
+  margin-top: -54px;
+}
+.salary-meth{
+  margin-left: 147px;
+  margin-top: 40px;
+}
+.emp-salary label{
+cursor: pointer;
+display: flex;
+margin-left: 60px;
+margin-top: 31px;
+}
+.emp-salary input[type='checkbox']{
+cursor: pointer;
+position: absolute;
+opacity: 0;
+}
+.emp-salary label::before{
+content: '';
+width: 24px;
+height: 24px;
+border: .15em;
+margin-right: .5em;
+border: 2px solid #003566;
+border-radius: 5px;
+}
+/* .paymentcheckbox input[type='checkbox']:hover +label::before{
+background: #003566;
+} */
+.emp-salary input[type='checkbox']:checked + label::before{
+content: '\002714';
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #003566;
+width: 24px;
+height: 24px;
+}
+.salary{
+  margin-left: 135px;
+}
+.salary input[type="text"]{
+  margin-left: 140px;
+  padding: 20px;
+}

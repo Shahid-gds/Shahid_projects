@@ -1,0 +1,136 @@
+{
+    "_id": "1b75f30cd8f849bd9cc4e659c3da3f94",
+    "assignment": {
+        "assigned": false,
+        "driver": "",
+        "status": "unassigned"
+    },
+    "cargo": [
+        {
+            "count": 5000,
+            "item": "than",
+            "status": "",
+            "stock_id": "320121",
+            "weight": 1000
+        }
+    ],
+    "confirmation_number": "Load #75444167",
+    "created": 1671684755,
+    "destinations": [
+        {
+            "address": {
+                "city": "Camarillo",
+                "country": "United States",
+                "country_code": "US",
+                "line1": "2409 Ventura Boulevard",
+                "line2": "",
+                "state": "California",
+                "state_code": "CA",
+                "zip": "93010"
+            },
+            "contact": {
+                "email": "",
+                "name": "",
+                "phone": ""
+            },
+            "coordinates": {
+                "latitude": 34.21639,
+                "longitude": -119.0376
+            },
+            "id": "0",
+            "location_name": "enhance granular paradigms",
+            "location_type": "pickup",
+            "metadata": {
+                "pu": "4445063"
+            },
+            "notes": "",
+            "status": "",
+            "timing": {
+                "arrival": {
+                    "actual": null,
+                    "expected": 1671706355
+                },
+                "elapsed": 0
+            }
+        },
+        {
+            "address": {
+                "city": "Waterbury",
+                "country": "United States",
+                "country_code": "US",
+                "line1": "640 West Main Street",
+                "line2": "",
+                "state": "Connecticut",
+                "state_code": "CT",
+                "zip": "06710"
+            },
+            "contact": {
+                "email": "",
+                "name": "",
+                "phone": ""
+            },
+            "coordinates": {
+                "latitude": 41.55815,
+                "longitude": -73.0515
+            },
+            "id": "1",
+            "location_name": "disintermediate out-of-the-box initiatives",
+            "location_type": "dropoff",
+            "metadata": {
+                "pu": "4445063"
+            },
+            "notes": "",
+            "status": "",
+            "timing": {
+                "arrival": {
+                    "actual": null,
+                    "expected": 1671860300
+                },
+                "elapsed": 0
+            }
+        }
+    ],
+    "documents": [
+        ""
+    ],
+    "load_pdf": "",
+    "party": [
+        {
+            "access_code": "9087",
+            "active": true,
+            "email": "test@email.com",
+            "hasSigned": false,
+            "id": "pxl3NikroigQRypTbXTH",
+            "role": "vendor",
+            "token": "ba38f9bfefc5d7b68fd3ee267f82e642"
+        },
+        {
+            "access_code": "1234",
+            "active": true,
+            "email": "digital@muftar.com",
+            "hasSigned": false,
+            "id": "XMThd77dS0oiwhKhAO7t",
+            "role": "carrier",
+            "token": "xxx123xxx"
+        },
+        {
+            "access_code": "9999",
+            "active": true,
+            "email": "me@tycooperaow.com",
+            "hasSigned": false,
+            "id": "tG3ikOgs1SnGMbEyDH0D",
+            "role": "broker",
+            "token": "xxx123xxx"
+        }
+    ],
+    "quote": {
+        "ask": 870501
+    },
+    "temp_range": "",
+    "time_completed": 0,
+    "total_distance": 4680118,
+    "total_duration": 153945,
+    "total_weight": 0,
+    "trailer": "",
+    "trailer_size": ""
+}

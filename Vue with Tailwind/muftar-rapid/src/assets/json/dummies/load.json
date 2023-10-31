@@ -1,0 +1,67 @@
+{
+  "dropoffs":[
+     {
+        "location_name":"Walmart Supercenter",
+        "dropoff_time": 1637671336,
+        "notes":"",
+        "address":{
+           "zip": "30046",
+           "state":"GA",
+           "line2":"",
+           "city":"Lawrenceville",
+           "country":"United States",
+           "line1":"630 Collins Hill Rd"
+        },
+        "coordinates":{
+           "latitude": 33.97118502769873,
+           "longitude": -83.99684627680028
+        }
+     }
+  ],
+  "payment": 100000,
+  "confirmation_number":"test-ABC123",
+  "bol":"https://firebasestorage.googleapis.com/v0/b/muftar-digital-trucking.appspot.com/o/carriers%2FXMThd77dS0oiwhKhAO7t%2Fbols%2Fbolfile(ejfs41Z0MuOQjaSn5o69Nek7U5r1_BULexPPa9NlI4qcclx9N_1650922533228)?alt=media&token=a06c62b3-0819-472f-98ad-1738d8b2dab2",
+  "load_pdf":"",
+  "created": 1639087951,
+  "total_weight":0,
+  "stock_information":[
+     {
+        "weight": 10000,
+        "item":"Creates of video games",
+        "count": 30
+     }
+  ],
+  "assignment":{
+     "assigned": false,
+     "driver":""
+  },
+  "dispatcher_id":"Karl",
+  "broker":{
+     "agent":"Sam",
+     "name":"Morgan Inc.",
+     "id":"wally123"
+  },
+  "party": [
+     {"role": "carrier", "email": "my@email.com", "token": "0-r908efgwud-0i9048tourgbwjnda-wfe08hiosda", "hasSigned": false, "id": ""}
+ ],
+  "time_completed":0,
+  "pickups":[
+     {
+        "pickup_time": 1637707336,
+        "notes":"",
+        "location_name":"Muftar Transport, LLC",
+        "coordinates":{
+           "latitude": 33.97815827520163,
+           "longitude": -83.94552323945426
+        },
+        "address":{
+           "zip": "30019",
+           "state":"GA",
+           "line2":"",
+           "city":"Dacula",
+           "country":"United States",
+           "line1":"1645 Cedars Rd SE"
+        }
+     }
+  ]
+  }

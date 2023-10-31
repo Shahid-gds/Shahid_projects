@@ -1,0 +1,7 @@
+[
+  {
+    "origin": ["https://muftar.com","https://rapid.muftar.com"],
+    "method": ["GET"],
+    "maxAgeSeconds": 3600
+  }
+]

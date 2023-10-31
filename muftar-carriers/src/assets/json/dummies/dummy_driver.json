@@ -1,0 +1,47 @@
+{
+  "driver_id": "PLYR456",
+  "photo": "https://images.unsplash.com/photo-1529068955484-37b935de18f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  "fname": "Salk",
+  "lname": "Heav",
+  "email": "example@email.com",
+  "phone": "7775550100",
+  "location":{
+    "latitude": 33.98060366423094,
+    "longitude": -83.98513240646606
+  },
+  "credentials":{
+    "license": "https://firebasestorage.googleapis.com/v0/b/muftar-digital-trucking.appspot.com/o/drivers_licenses%2Fuglylicense.jpeg?alt=media&token=39371e75-02fe-43a0-9af8-d36d4b3d1ef2",
+    "license_number": "LICENSE1234567"
+  },
+  "address":{
+       "zip": "30019",
+       "state":"GA",
+       "line2":"",
+       "city":"Dacula",
+       "country":"United States",
+       "line1":"1645 Cedars Rd SE"
+    },
+  "truck":{
+    "_id": "293urhfirg",
+    "image": "https://firebasestorage.googleapis.com/v0/b/muftar-digital-trucking.appspot.com/o/site_assets%2Fdummydata%2Fslide-3.jpeg?alt=media&token=e52648ed-0c5c-455f-b171-c99e91e447f4",
+    "number": "3932ur3",
+    "plate": "TRUCK OFF",
+    "make": "Tesla",
+    "model":"Semi",
+    "year": 2023,
+    "vin": "9RJ9F20H4FUR3G"
+  },
+  "settings":{
+    "current_load": "",
+    "isAvailable": false,
+    "language": "en"
+  },
+  "otherDetails": "dfsefwds",
+  "reefer": "dfsefwds",
+  "engineHours": "100",
+  "license": "2349t2c4hwre9",
+  "driverType": "dfsefwds",
+  "miniFleetEligibility": "Not-Eligible",
+  "driverStatus": "Active"
+
+}

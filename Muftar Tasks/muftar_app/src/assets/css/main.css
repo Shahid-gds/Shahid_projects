@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+  font-family: 'Avenir', sans-serif;
+}
+@font-face {
+  font-family: 'Avenir'; 
+  src: url(../Avenir//Avenir\ LT\ Std\ 95\ Black.otf) format('truetype');
+  src: url(../Avenir/Avenir\ LT\ Std\ 35\ Light.otf) format('truetype');
+  src: url(../Avenir/Avenir\ LT\ Std\ 65\ Medium.otf) format('truetype');
+  src: url(../Avenir//Avenir\ LT\ Std\ 85\ Heavy.otf) format('truetype');
+  src: url(../Avenir//AvenirLTStd-Book.otf) format('truetype');
+  src: url(../Avenir//AvenirLTStd-Roman.otf) format('truetype');
+}
+
+

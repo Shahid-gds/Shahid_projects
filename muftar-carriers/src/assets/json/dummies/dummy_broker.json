@@ -1,0 +1,45 @@
+{
+    "brokers": [{
+            "photo": "https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80",
+            "name": "Magic The Logistics Broker",
+            "currentLocation": "Bowling Green, KY",
+            "website": "broker.com",
+            "load_offers": ["ABC", "DEF", "GHI", "JKL", "MNO", "PQR", "STU", "V", "WXYZ"]
+        },
+        {
+            "photo": "https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80",
+            "name": "Kemal and Co.",
+            "currentLocation": "Bowling Green, KY",
+            "website": "broker.com",
+            "load_offers": ["ABC", "DEF", "GHI", "JKL", "MNO", "PQR"]
+        },
+        {
+            "photo": "https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80",
+            "name": "Bro the Broker",
+            "currentLocation": "Bowling Green, KY",
+            "website": "broker.com",
+            "load_offers": ["ABC", "DEF", "GHI", "JKL"]
+        },
+        {
+            "photo": "https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80",
+            "name": "Just a Broker",
+            "currentLocation": "Bowling Green, KY",
+            "website": "broker.com",
+            "load_offers": ["ABC", "DEF"]
+        },
+        {
+            "photo": "https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80",
+            "name": "Not a Broker",
+            "currentLocation": "Bowling Green, KY",
+            "website": "broker.com",
+            "load_offers": ["ABC"]
+        },
+        {
+            "photo": "https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80",
+            "name": "Broker the Broker",
+            "currentLocation": "Bowling Green, KY",
+            "website": "broker.com",
+            "load_offers": ["ABC", "DEF", "GHI", "JKL", "MNO"]
+        }
+    ]
+}

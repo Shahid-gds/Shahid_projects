@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="174" viewBox="0 0 40 174">
+  <g id="Group_1406" data-name="Group 1406" transform="translate(-897 -1399)">
+    <g id="Group_1405" data-name="Group 1405">
+      <g id="Group_1404" data-name="Group 1404">
+        <g id="_1" data-name="1" transform="translate(887.232 1520)">
+          <rect id="Rectangle_2" data-name="Rectangle 2" width="2" height="95" transform="translate(28.767 -121)" fill="#3783ff"/>
+          <rect id="Rectangle_2_copy" data-name="Rectangle 2 copy" width="2" height="57" transform="translate(28.767 -4)" fill="#3783ff"/>
+          <g id="Ellipse_1_copy" data-name="Ellipse 1 copy" transform="translate(9.767 -43)" fill="rgba(107,89,211,0)" stroke="#3783ff" stroke-linejoin="round" stroke-width="3">
+            <circle cx="20" cy="20" r="20" stroke="none"/>
+            <circle cx="20" cy="20" r="18.5" fill="none"/>
+          </g>
+          <circle id="Ellipse_1" data-name="Ellipse 1" cx="15" cy="15" r="15" transform="translate(14.767 -38)" fill="#3783ff"/>
+          <path id="Icon_awesome-check" data-name="Icon awesome-check" d="M5.537,16.495l-5.3-5.3a.815.815,0,0,1,0-1.153L1.391,8.891a.815.815,0,0,1,1.153,0L6.113,12.46l7.645-7.644a.815.815,0,0,1,1.153,0l1.153,1.153a.815.815,0,0,1,0,1.153L6.69,16.495A.815.815,0,0,1,5.537,16.495Z" transform="translate(22.304 -33.476)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
